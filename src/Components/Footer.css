@@ -1,0 +1,53 @@
+.icon{
+    display: flex;
+    list-style-type: none;
+}
+.icon li{
+    margin:1rem;
+    font-size: 1.5rem;
+
+}
+.signup{
+    color:white !important;
+    border-color: white !important;
+
+}
+.signup:hover{
+    background-color: #4c91d6 !important;
+}
+.footer2-list{
+    list-style-type: none;
+}
+ul.footer2-list{
+    padding-inline-start: 0px !important;
+}
+ul.footer2-list li:hover{
+    font-size: 15px;
+}
+ul.footer2-list li{
+    margin-top: 12px;
+    font-size: 14px;
+}
+.list-heading{
+    margin: 16px 0px; 
+}
+.logo-icon{
+    width: 3rem;
+}
+@media screen and (max-width:768px) {
+    ul.footer2-list li{
+     text-align: center;
+    }
+    .list-heading{
+     text-align: center;
+    }
+
+}
+@media screen and (max-width:992px) {
+    .footer-opensea{
+        text-align: center;
+    }
+}
+.icon{
+    padding-inline-start: 0px;
+}
