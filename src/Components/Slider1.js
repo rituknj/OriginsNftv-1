@@ -27,10 +27,10 @@ export default function App() {
           slidesPerView={1}
           spaceBetween={10}
           pagination={{
-            clickable: true,
+            clickable: false,
           }}
           navigation={{
-            clickable: true,
+            clickable: false,
           }}
           autoplay={{
             delay: 2500,

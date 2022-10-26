@@ -15,7 +15,9 @@ export default function Browse() {
   return (
     <section>
       <div className="container-fluid py-5 px-5">
-        <h1 style={{ color: "#fff" }}>Browse by category</h1>
+        <h1 className="header-browse" style={{ color: "#fff" }}>
+          Browse by category
+        </h1>
         <div className="row brow">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
             <Card className="cards">

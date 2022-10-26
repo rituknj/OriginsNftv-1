@@ -9,6 +9,7 @@ import Browse from "./Components/Browse";
 import Footer from "./Components/Footer";
 // import Toyslider from "./Components/Toyslider";
 import Table from "./Components/Table";
+import Hot from "./Components/Hot";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       {/* <Table /> */}
       <Notable />
       <Avalanch />
+      <Hot />
       {/*       <Toyslider /> */}
       <Browse />
       <Footer />

@@ -9,7 +9,7 @@ import Card from "react-bootstrap/Card";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import "./Notable.css";
+import "./Hot.css";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
@@ -17,10 +17,10 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function App() {
   return (
     <section>
-      <div className="container-fluid  py-5 px-5">
-        <h1 className="header-new" style={{ color: "#fff" }}>
+      <div className="container-fluid py-5 px-5">
+        <h1 className="header-hot" style={{ color: "#fff" }}>
           {" "}
-          New and notable
+          Hot
         </h1>
         <Swiper
           slidesPerView={1}

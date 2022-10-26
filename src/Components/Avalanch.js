@@ -18,7 +18,9 @@ export default function App() {
   return (
     <section>
       <div className="container-fluid  py-5 px-5">
-        <h1 style={{ color: "#fff" }}>Storytelling NFTs spotlight </h1>
+        <h1 className="header-nft" style={{ color: "#fff" }}>
+          Storytelling NFTs spotlight{" "}
+        </h1>
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
