@@ -78,6 +78,7 @@ body {
 
   transition: transform 1s;
   width: 200px;
+  overflow: hidden;
   height: 200px;
   margin: 0 auto;
 }
@@ -91,7 +92,7 @@ body {
 .swiper-slide {
   font-size: 18px;
   background: #fff;
-
+overflow: hidden !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
