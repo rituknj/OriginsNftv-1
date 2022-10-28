@@ -55,13 +55,13 @@ function UncontrolledExample() {
                             <img src={Icons1} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -79,13 +79,13 @@ function UncontrolledExample() {
                             <img src={Icons2} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -103,13 +103,13 @@ function UncontrolledExample() {
                             <img src={Icons3} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -127,13 +127,13 @@ function UncontrolledExample() {
                             <img src={Icons4} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -151,58 +151,17 @@ function UncontrolledExample() {
                             <img src={Icons5} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    {/* <thead>
-                    <tr>
-                      <th>COLLECTION</th>
-                      <th></th>
-
-                      <th>FLOOR PRICE</th>
-                      <th>VOLUME</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>
-                        <img src={Icon1} alt="" className="icons" />
-                        <p className="down-1">Down Market Ducks</p>
-                      </td>
-
-                      <td>0.04ETH</td>
-                      <td>225ETH</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>
-                        <img src={Icon1} alt="" className="icons" />
-                        <p className="down-1">Down Market Ducks</p>
-                      </td>
-
-                      <td>0.04ETH</td>
-                      <td>225ETH</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>
-                        <img src={Icon1} alt="" className="icons" />
-                        <p className="down-1">Down Market Ducks</p>
-                      </td>
-
-                      <td>0.04ETH</td>
-                      <td>225ETH</td>
-                    </tr>
-                  </tbody> */}
                   </Table>
                 </div>
 
@@ -234,13 +193,13 @@ function UncontrolledExample() {
                             <img src={Icons6} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -258,13 +217,13 @@ function UncontrolledExample() {
                             <img src={Icons7} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -282,13 +241,13 @@ function UncontrolledExample() {
                             <img src={Icons8} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -306,13 +265,13 @@ function UncontrolledExample() {
                             <img src={Icons9} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -330,13 +289,13 @@ function UncontrolledExample() {
                             <img src={Icons10} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -375,13 +334,13 @@ function UncontrolledExample() {
                             <img src={Icons1} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -399,13 +358,13 @@ function UncontrolledExample() {
                             <img src={Icons2} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -423,13 +382,13 @@ function UncontrolledExample() {
                             <img src={Icons3} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -447,13 +406,13 @@ function UncontrolledExample() {
                             <img src={Icons4} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -471,58 +430,17 @@ function UncontrolledExample() {
                             <img src={Icons5} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                    {/* <thead>
-                    <tr>
-                      <th>COLLECTION</th>
-                      <th>First Name</th>
-
-                      <th>FLOOR PRICE</th>
-                      <th>VOLUME</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>
-                        <img src={Icon1} alt="" className="icons" />
-                        <p className="down-1">Down Market Ducks</p>
-                      </td>
-
-                      <td>0.04ETH</td>
-                      <td>225ETH</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>
-                        <img src={Icon1} alt="" className="icons" />
-                        <p className="down-1">Down Market Ducks</p>
-                      </td>
-
-                      <td>0.04ETH</td>
-                      <td>225ETH</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>
-                        <img src={Icon1} alt="" className="icons" />
-                        <p className="down-1">Down Market Ducks</p>
-                      </td>
-
-                      <td>0.04ETH</td>
-                      <td>225ETH</td>
-                    </tr>
-                  </tbody> */}
                   </Table>
                 </div>
 
@@ -554,13 +472,13 @@ function UncontrolledExample() {
                             <img src={Icons6} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -578,13 +496,13 @@ function UncontrolledExample() {
                             <img src={Icons7} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -602,13 +520,13 @@ function UncontrolledExample() {
                             <img src={Icons8} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -626,13 +544,13 @@ function UncontrolledExample() {
                             <img src={Icons9} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
@@ -650,13 +568,13 @@ function UncontrolledExample() {
                             <img src={Icons10} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">Nyolings</p>
+                            <p className="card-name">RENGA</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">0.12 ETH</p>
+                            <p className="card-name">3.09 ETH</p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">302 ETH</p>
+                            <p className="card-name">1,189 ETH</p>
                           </div>
                         </div>
                       </div>
