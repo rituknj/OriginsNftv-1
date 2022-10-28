@@ -36,7 +36,9 @@ export default function Browse() {
             <Card className="cards">
               <Card.Img variant="top" src={Browse2} />
               <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>Music</Card.Title>
+                <Card.Title style={{ textAlign: "center" }}>
+                  Collectibles
+                </Card.Title>
                 {/* <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -49,9 +51,7 @@ export default function Browse() {
             <Card className="cards">
               <Card.Img variant="top" src={Browse3} />
               <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>
-                  Trading Card
-                </Card.Title>
+                <Card.Title style={{ textAlign: "center" }}>Music</Card.Title>
                 {/* <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -67,7 +67,7 @@ export default function Browse() {
               <Card.Img variant="top" src={Browse4} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>
-                  Collectibles
+                  Photography
                 </Card.Title>
                 {/* <Card.Text>
               Some quick example text to build on the card title and make up the
@@ -82,7 +82,7 @@ export default function Browse() {
               <Card.Img variant="top" src={Browse5} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>
-                  Photography
+                  Recordion
                 </Card.Title>
                 {/* <Card.Text>
               Some quick example text to build on the card title and make up the
@@ -96,7 +96,7 @@ export default function Browse() {
             <Card className="cards">
               <Card.Img variant="top" src={Browse6} />
               <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>Utility</Card.Title>
+                <Card.Title style={{ textAlign: "center" }}>Videos</Card.Title>
                 {/* <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -106,7 +106,7 @@ export default function Browse() {
             </Card>
           </div>
         </div>
-        <div className="row brow">
+        {/* <div className="row brow">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
             <Card className="cards">
               <Card.Img variant="top" src={Browse7} />
@@ -114,11 +114,7 @@ export default function Browse() {
                 <Card.Title style={{ textAlign: "center" }}>
                   Domain Names
                 </Card.Title>
-                {/* <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text> */}
-                {/* <Button variant="primary">Go somewhere</Button> */}
+               
               </Card.Body>
             </Card>
           </div>
@@ -127,11 +123,7 @@ export default function Browse() {
               <Card.Img variant="top" src={Browse8} />
               <Card.Body>
                 <Card.Title style={{ textAlign: "center" }}>Sports</Card.Title>
-                {/* <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text> */}
-                {/* <Button variant="primary">Go somewhere</Button> */}
+                
               </Card.Body>
             </Card>
           </div>
@@ -142,15 +134,11 @@ export default function Browse() {
                 <Card.Title style={{ textAlign: "center" }}>
                   Virtual Worlds
                 </Card.Title>
-                {/* <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text> */}
-                {/* <Button variant="primary">Go somewhere</Button> */}
+              
               </Card.Body>
             </Card>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
