@@ -9,7 +9,7 @@ export default function Main() {
         <h1 className="heading-1">Explore, collect, and sell NFTs</h1>
 
         <div>
-          <div class="input-group mb-3">
+          <div class="input-group12 mb-3">
             {/* <span class="input-group-text" id="basic-addon1">
               @
             </span> */}

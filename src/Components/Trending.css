@@ -145,3 +145,13 @@
 .nav-tabs .nav-link.active {
   font-size: 35px !important;
 }
+@media screen and (max-width:992px) {
+  .table23{
+    display: none !important;
+  }
+  .table24{
+    display: none !important;
+  }
+
+}
+

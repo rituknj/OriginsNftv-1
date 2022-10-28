@@ -57,7 +57,7 @@ input::placeholder {
   display: flex;
   /* flex-wrap: wrap; */
   align-items: stretch;
-  width: 50% !important;
+  width: 70% !important;
 }
 
 ul.footer2-list {
@@ -101,4 +101,21 @@ ul.footer2-list li {
 }
 .icon {
   padding-inline-start: 0px;
+  justify-content: space-evenly;
 }
+@media screen and (max-width:550px) {
+  .icon li{
+    margin: 0.4rem;
+  }
+  .twitter-icons{
+    padding: 0.4rem;
+  }
+  .input-group1 {
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: stretch;
+    width: 100% !important;
+  }
+}
+

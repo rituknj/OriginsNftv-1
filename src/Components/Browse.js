@@ -20,10 +20,10 @@ export default function Browse() {
         </h1>
         <div className="row brow">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card className="cards">
-              <Card.Img variant="top" src={Browse1} />
-              <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>Art</Card.Title>
+            <Card className="cards1">
+              <Card.Img variant="top" src={Browse1}  className="card-img-top1"/>
+              <Card.Body  className="card-body1">
+                <Card.Title style={{ textAlign: "center" }}  className="card-title1">Art</Card.Title>
                 {/* <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -33,10 +33,10 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card className="cards">
-              <Card.Img variant="top" src={Browse2} />
-              <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>
+            <Card className="cards1">
+              <Card.Img variant="top" src={Browse2}   className="card-img-top1"/>
+              <Card.Body  className="card-body1">
+                <Card.Title style={{ textAlign: "center" }}  className="card-title1">
                   Collectibles
                 </Card.Title>
                 {/* <Card.Text>
@@ -48,10 +48,10 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card className="cards">
-              <Card.Img variant="top" src={Browse3} />
-              <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>Music</Card.Title>
+            <Card className="cards1">
+              <Card.Img variant="top" src={Browse3}   className="card-img-top1"/>
+              <Card.Body  className="card-body1">
+                <Card.Title style={{ textAlign: "center" }}  className="card-title1">Music</Card.Title>
                 {/* <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -63,10 +63,10 @@ export default function Browse() {
         </div>
         <div className="row brow">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card className="cards">
-              <Card.Img variant="top" src={Browse4} />
-              <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>
+            <Card className="cards1">
+              <Card.Img variant="top" src={Browse4}   className="card-img-top1"/>
+              <Card.Body  className="card-body1">
+                <Card.Title style={{ textAlign: "center" }}  className="card-title1">
                   Photography
                 </Card.Title>
                 {/* <Card.Text>
@@ -78,10 +78,10 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card className="cards">
-              <Card.Img variant="top" src={Browse5} />
-              <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>
+            <Card className="cards1">
+              <Card.Img variant="top" src={Browse5}   className="card-img-top1"/>
+              <Card.Body  className="card-body1">
+                <Card.Title style={{ textAlign: "center" }}  className="card-title1">
                   Recordion
                 </Card.Title>
                 {/* <Card.Text>
@@ -93,10 +93,10 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card className="cards">
-              <Card.Img variant="top" src={Browse6} />
-              <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>Videos</Card.Title>
+            <Card className="cards1">
+              <Card.Img variant="top" src={Browse6}   className="card-img-top1"/>
+              <Card.Body  className="card-body1">
+                <Card.Title style={{ textAlign: "center" }}  className="card-title1">Videos</Card.Title>
                 {/* <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -108,10 +108,10 @@ export default function Browse() {
         </div>
         {/* <div className="row brow">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card className="cards">
-              <Card.Img variant="top" src={Browse7} />
-              <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>
+            <Card className="cards1">
+              <Card.Img variant="top" src={Browse7}   className="card-img-top1"/>
+              <Card.Body  className="card-body1">
+                <Card.Title style={{ textAlign: "center" }}  className="card-title1">
                   Domain Names
                 </Card.Title>
                
@@ -119,19 +119,19 @@ export default function Browse() {
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card className="cards">
-              <Card.Img variant="top" src={Browse8} />
-              <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>Sports</Card.Title>
+            <Card className="cards1">
+              <Card.Img variant="top" src={Browse8}   className="card-img-top1"/>
+              <Card.Body  className="card-body1">
+                <Card.Title style={{ textAlign: "center" }}  className="card-title1">Sports</Card.Title>
                 
               </Card.Body>
             </Card>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
-            <Card className="cards">
-              <Card.Img variant="top" src={Browse9} />
-              <Card.Body>
-                <Card.Title style={{ textAlign: "center" }}>
+            <Card className="cards1">
+              <Card.Img variant="top" src={Browse9}   className="card-img-top1"/>
+              <Card.Body  className="card-body1">
+                <Card.Title style={{ textAlign: "center" }}  className="card-title1">
                   Virtual Worlds
                 </Card.Title>
               

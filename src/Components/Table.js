@@ -166,7 +166,7 @@ export default function Table() {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row table2">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
             <div className="row py-3">
               <div className="col-lg-1 col-md-1 col-sm-1 col-1">
