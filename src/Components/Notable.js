@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image1 from "../Components/Images/image-1.avif";
 import Image2 from "../Components/Images/img-3.avif";
 import Card from "react-bootstrap/Card";
+import { BsFillPatchCheckFill } from "react-icons/bs";
 
 // Import Swiper styles
 import "swiper/css";
@@ -28,9 +29,9 @@ export default function App() {
           // pagination={{
           //   clickable: true,
           // }}
-          navigation={{
-            clickable: true,
-          }}
+          // navigation={{
+          //   clickable: true,
+          // }}
           // autoplay={{
           //   delay: 2500,
           //   disableOnInteraction: false,
@@ -66,7 +67,10 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Somnium Space VR</span>
+                  <span className="tick-icons">
+                    <BsFillPatchCheckFill className="tick" />
+                  </span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -91,7 +95,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Anzu Jungle</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -116,7 +120,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Red Angrybol</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -141,7 +145,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Somnium Space VR</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -166,7 +170,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Anzu Jungle</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -191,7 +195,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Red Angrybol</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -216,7 +220,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Somnium Space VR</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -241,7 +245,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Anzu Jungle</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -265,7 +269,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Red Angrybol</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up

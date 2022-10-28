@@ -27,13 +27,13 @@ export default function App() {
           // pagination={{
           //   clickable: true,
           // }}
-          navigation={{
-            clickable: true,
-          }}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
+          // navigation={{
+          //   clickable: true,
+          // }}
+          // autoplay={{
+          //   delay: 2500,
+          //   disableOnInteraction: false,
+          // }}
           breakpoints={{
             640: {
               slidesPerView: 2,
@@ -65,7 +65,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">The Rangers</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -90,7 +90,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Cong TV</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -115,7 +115,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Iban Maine</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -140,7 +140,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">The Rangers</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -165,7 +165,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Cong TV</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -190,7 +190,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Iban Maine</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -215,7 +215,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">The Rangers</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -240,7 +240,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Cong TV</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -264,7 +264,7 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Mohammad Ali</span>
+                  <span className="text32">Iban Maine</span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up

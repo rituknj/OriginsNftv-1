@@ -14,7 +14,7 @@ function Footer() {
       <div style={{ backgroundColor: "#000", color: "white" }}>
         <div className="container-fluid  py-5 px-5">
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <h3 className="keep-head">Keep posted</h3>
               <p className="subs-para">
                 Subscribe to our newsletter to stay in the loop with our newest
@@ -22,7 +22,7 @@ function Footer() {
                 <br /> release, NFT drops, and tips and tricks for navigating
                 Origins Marketplace.
               </p>
-              <div className="input-group mb-3">
+              <div className="input-group1 mb-3">
                 <input
                   type="email"
                   className="form-control"
@@ -35,7 +35,7 @@ function Footer() {
                 </button>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <h3 className="join-header">Join the community</h3>
               <div>
                 <ul className="icon">
@@ -51,23 +51,17 @@ function Footer() {
                   <li className="twitter-icons">
                     <FaTelegramPlane />
                   </li>
-                  {/* <li>
-                    <TbBrandTwitter />
-                  </li> */}
+
                   <li className="twitter-icons">
                     <BsYoutube />
                   </li>
                   <li className="twitter-icons">
                     <FiInstagram />
                   </li>
-                  {/* <li className="twitter-icons">
-                    <CgMail />
-                  </li> */}
                 </ul>
               </div>
             </div>
           </div>
-          {/* <hr /> */}
           <div>
             <div className="row">
               <div className="col-lg-4 col-md-12 col-sm-12 col-12 footer-opensea">
@@ -81,14 +75,11 @@ function Footer() {
                 <h5 className="origins-head">Origins Marketplace</h5>
                 <br />
                 <p className="origins-para">
-                  The Origins Token ($ORGNS) is an
-                  <br /> intercontinental cryptocurrency <br /> primed to become
-                  an integral part of <br />a global ecosystem where artist,
-                  <br />
-                  creators, investors and the general <br />
-                  public are given the freedom to <br />
-                  participate in and earn profits from <br />
-                  endeavours they are passionate about.
+                  The Origins Token ($ORGNS) is an intercontinental
+                  cryptocurrency primed to become an integral part of a global
+                  ecosystem where artist, creators, investors and the general
+                  public are given the freedom to participate in and earn
+                  profits from endeavours they are passionate about.
                 </p>
               </div>
               <div className="col-lg-2 col-md-3 col-sm-6 col-6">
@@ -116,11 +107,6 @@ function Footer() {
                   <li>My Collections</li>
                   <li>Settings</li>
                 </ul>
-                {/* <h5 className="list-heading">Stats</h5>
-                <ul className="footer2-list">
-                  <li>Rankings</li>
-                  <li>Activity</li>
-                </ul> */}
               </div>
               <div className="col-lg-2 col-md-3 col-sm-6 col-6">
                 {" "}
@@ -133,17 +119,6 @@ function Footer() {
                   <li>Socials</li>
                 </ul>
               </div>
-              {/* <div className="col-lg-2 col-md-3 col-sm-6 col-6">
-                {" "}
-                <h5 className="list-heading">Company</h5>
-                <ul className="footer2-list">
-                  <li>About</li>
-                  <li>Careers</li>
-                  <li>Ventures</li>
-                  <li>Partners</li>
-                  <li>Grants</li>
-                </ul>
-              </div> */}
             </div>
           </div>{" "}
         </div>

@@ -52,6 +52,14 @@ input::placeholder {
 .footer2-list {
   list-style-type: none;
 }
+.input-group1 {
+  position: relative;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: stretch;
+  width: 50% !important;
+}
+
 ul.footer2-list {
   padding-inline-start: 0px !important;
 }
