@@ -6,19 +6,10 @@
   font-weight: 900;
   color: #fff;
 }
-.input-group {
-  width: 50% !important;
-  margin: auto;
-}
-.form-control {
-  padding: 20px !important;
-  border-radius: 20px !important;
-  background-color: #6a6769 !important;
-  border: none !important;
-  color: #fff !important;
-  font-size: 25px !important;
-  font-weight: 800;
-}
+
 input::placeholder {
   color: #fff !important;
+}
+.input-group {
+  margin: auto;
 }

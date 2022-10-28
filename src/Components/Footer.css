@@ -1,53 +1,96 @@
-.icon{
-    display: flex;
-    list-style-type: none;
+.icon {
+  display: flex;
+  list-style-type: none;
 }
-.icon li{
-    margin:1rem;
-    font-size: 1.5rem;
-
+.icon li {
+  margin: 1rem;
+  font-size: 1.5rem;
 }
-.signup{
-    color:white !important;
-    border-color: white !important;
-
+.signup {
+  font-size: 1.2rem;
+  padding: 10px;
+  font-weight: 600;
+  color: #000 !important;
+  border-color: white !important;
+  border-radius: 15px;
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
 }
-.signup:hover{
-    background-color: #4c91d6 !important;
+/* .signup:hover {
+  background-color: #4c91d6 !important;
+} */
+.form-control {
+  padding: 10px !important;
+  border-radius: 10px !important;
+  background-color: #6a6769 !important;
+  border: none !important;
+  color: #fff !important;
+  font-size: 15px !important;
+  font-weight: 600;
+  margin-right: 15px;
 }
-.footer2-list{
-    list-style-type: none;
+.twitter-icons {
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 1rem;
 }
-ul.footer2-list{
-    padding-inline-start: 0px !important;
+.join-header {
+  margin-left: 20px;
+  font-size: 2rem;
 }
-ul.footer2-list li:hover{
-    font-size: 15px;
+.origins-head {
+  font-size: 2rem;
 }
-ul.footer2-list li{
-    margin-top: 12px;
-    font-size: 14px;
+input::placeholder {
+  font-size: 1.2rem !important;
 }
-.list-heading{
-    margin: 16px 0px; 
+.input-group {
+  width: 55% !important;
+  margin: none !important;
 }
-.logo-icon{
-    width: 3rem;
+.footer2-list {
+  list-style-type: none;
 }
-@media screen and (max-width:768px) {
-    ul.footer2-list li{
-     text-align: center;
-    }
-    .list-heading{
-     text-align: center;
-    }
-
+ul.footer2-list {
+  padding-inline-start: 0px !important;
 }
-@media screen and (max-width:992px) {
-    .footer-opensea{
-        text-align: center;
-    }
+/* ul.footer2-list li:hover {
+  font-size: 15px;
+} */
+ul.footer2-list li {
+  margin-top: 12px;
+  font-size: 1.2rem;
 }
-.icon{
-    padding-inline-start: 0px;
+.keep-head {
+  font-size: 2rem;
+}
+.subs-para {
+  font-size: 1.2rem;
+}
+.list-heading {
+  margin: 16px 0px;
+  font-size: 2rem;
+}
+.origins-para {
+  font-size: 1.2rem;
+}
+.logo-icon {
+  width: 3rem;
+}
+@media screen and (max-width: 768px) {
+  ul.footer2-list li {
+    text-align: center;
+  }
+  .list-heading {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-opensea {
+    text-align: center;
+  }
+}
+.icon {
+  padding-inline-start: 0px;
 }

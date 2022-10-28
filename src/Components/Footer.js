@@ -1,92 +1,94 @@
 import React from "react";
-import { TbBrandTwitter } from "react-icons/tb";
-import { TbBrandInstagram } from "react-icons/tb";
-import { TbBrandDiscord } from "react-icons/tb";
-import { AiOutlineReddit } from "react-icons/ai";
-import { FiYoutube } from "react-icons/fi";
-import { TbBrandTiktok } from "react-icons/tb";
-import { CgMail } from "react-icons/cg";
+import { BsDiscord } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
+import { FaTelegramPlane } from "react-icons/fa";
+import { BsYoutube } from "react-icons/bs";
+import { FiInstagram } from "react-icons/fi";
+// import { CgMail } from "react-icons/cg";
 import "./Footer.css";
 
 function Footer() {
   return (
     <>
-      <div style={{ backgroundColor: "#1868b7", color: "white" }}>
+      <div style={{ backgroundColor: "#000", color: "white" }}>
         <div className="container-fluid  py-5 px-5">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <h3>Stay in the loop</h3>
-              <p>
-                Join our mailing list to stay in the loop with our newest
-                feature releases, NFT drops, and tips and tricks for navigating
-                OpenSea.
+              <h3 className="keep-head">Keep posted</h3>
+              <p className="subs-para">
+                Subscribe to our newsletter to stay in the loop with our newest
+                feature
+                <br /> release, NFT drops, and tips and tricks for navigating
+                Origins Marketplace.
               </p>
-              <div class="input-group mb-3">
+              <div className="input-group mb-3">
                 <input
                   type="email"
-                  class="form-control"
-                  placeholder="Your email address"
+                  className="form-control"
+                  placeholder="Enter email address..."
                   aria-label="Recipient's username"
                   aria-describedby="button-addon2"
                 />
-                <button
-                  className="btn btn-outline-secondary signup"
-                  type="button"
-                  id="button-addon2"
-                >
-                  Sign Up
+                <button className="signup" type="button" id="button-addon2">
+                  Subscribe
                 </button>
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <h3>Join the community</h3>
+              <h3 className="join-header">Join the community</h3>
               <div>
                 <ul className="icon">
-                  <li>
+                  <li className="twitter-icons">
+                    <BsDiscord />
+                  </li>
+                  <li className="twitter-icons">
+                    <BsFacebook />
+                  </li>
+                  <li className="twitter-icons">
+                    <BsTwitter />
+                  </li>
+                  <li className="twitter-icons">
+                    <FaTelegramPlane />
+                  </li>
+                  {/* <li>
                     <TbBrandTwitter />
+                  </li> */}
+                  <li className="twitter-icons">
+                    <BsYoutube />
                   </li>
-                  <li>
-                    <TbBrandInstagram />
+                  <li className="twitter-icons">
+                    <FiInstagram />
                   </li>
-                  <li>
-                    <TbBrandDiscord />
-                  </li>
-                  <li>
-                    <AiOutlineReddit />
-                  </li>
-                  <li>
-                    <TbBrandTwitter />
-                  </li>
-                  <li>
-                    <FiYoutube />
-                  </li>
-                  <li>
-                    <TbBrandTiktok />
-                  </li>
-                  <li>
+                  {/* <li className="twitter-icons">
                     <CgMail />
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
           </div>
-          <hr />
+          {/* <hr /> */}
           <div>
             <div className="row">
               <div className="col-lg-4 col-md-12 col-sm-12 col-12 footer-opensea">
-                <img
+                {/* <img
                   src="https://opensea.io/static/images/logos/opensea-white.svg"
                   alt=""
                   className="logo-icon"
-                />
+                /> */}
                 <br />
                 <br />
-                <h5>OpenSea</h5>
+                <h5 className="origins-head">Origins Marketplace</h5>
                 <br />
-                <p>
-                  The world’s first and largest digital marketplace for crypto
-                  collectibles and non-fungible tokens (NFTs). Buy, sell, and
-                  discover exclusive digital items.
+                <p className="origins-para">
+                  The Origins Token ($ORGNS) is an
+                  <br /> intercontinental cryptocurrency <br /> primed to become
+                  an integral part of <br />a global ecosystem where artist,
+                  <br />
+                  creators, investors and the general <br />
+                  public are given the freedom to <br />
+                  participate in and earn profits from <br />
+                  endeavours they are passionate about.
                 </p>
               </div>
               <div className="col-lg-2 col-md-3 col-sm-6 col-6">
@@ -94,49 +96,44 @@ function Footer() {
                 <h5 className="list-heading">Marketplace</h5>
                 <ul className="footer2-list">
                   <li>All NFTs</li>
-                  <li>Solana NFTs</li>
+
                   <li>Art</li>
                   <li>Collectibles</li>
-                  <li>Domain Names</li>
-                  <li>Music</li>
+
                   <li>Photography</li>
-                  <li>Sports</li>
-                  <li>Trading Cards</li>
-                  <li>Utility</li>
-                  <li>Virtual Worlds</li>
+                  <li>Recordian</li>
+                  <li>Videos</li>
+                  <li>Trending</li>
                 </ul>
               </div>
               <div className="col-lg-2 col-md-3 col-sm-6 col-6">
                 {" "}
-                <h5 className="list-heading">My Account</h5>
+                <h5 className="list-heading">My Profile</h5>
                 <ul className="footer2-list">
-                  <li>Profile</li>
-                  <li>Favorites</li>
+                  <li>Overview</li>
+                  <li>Favourites</li>
                   <li>Watchlist</li>
                   <li>My Collections</li>
                   <li>Settings</li>
                 </ul>
-                <h5 className="list-heading">Stats</h5>
+                {/* <h5 className="list-heading">Stats</h5>
                 <ul className="footer2-list">
                   <li>Rankings</li>
                   <li>Activity</li>
-                </ul>
+                </ul> */}
               </div>
               <div className="col-lg-2 col-md-3 col-sm-6 col-6">
                 {" "}
                 <h5 className="list-heading">Resources</h5>
                 <ul className="footer2-list">
-                  <li>Learn</li>
-                  <li>Help Center</li>
-                  <li>Platform Status</li>
-                  <li>Partners</li>
-                  <li>Taxes</li>
-                  <li>Blog</li>
                   <li>Docs</li>
+                  <li>Partners</li>
+                  <li>Advertisement</li>
                   <li>Newsletter</li>
+                  <li>Socials</li>
                 </ul>
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-6 col-6">
+              {/* <div className="col-lg-2 col-md-3 col-sm-6 col-6">
                 {" "}
                 <h5 className="list-heading">Company</h5>
                 <ul className="footer2-list">
@@ -146,7 +143,7 @@ function Footer() {
                   <li>Partners</li>
                   <li>Grants</li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>{" "}
         </div>

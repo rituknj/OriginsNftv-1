@@ -52,7 +52,7 @@ export default function App() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
                 <Card.Title className="card-body12">
@@ -77,7 +77,7 @@ export default function App() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
                 <Card.Title className="card-body12">
@@ -102,7 +102,7 @@ export default function App() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
                 <Card.Title className="card-body12">
@@ -127,7 +127,7 @@ export default function App() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
                 <Card.Title className="card-body12">
@@ -152,7 +152,7 @@ export default function App() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
                 <Card.Title className="card-body12">
@@ -177,7 +177,7 @@ export default function App() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
                 <Card.Title className="card-body12">
@@ -202,7 +202,7 @@ export default function App() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
                 <Card.Title className="card-body12">
@@ -227,7 +227,7 @@ export default function App() {
           </SwiperSlide>
           <SwiperSlide>
             {" "}
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image1} />
               <Card.Body>
                 <Card.Title className="card-body12">
@@ -251,7 +251,7 @@ export default function App() {
             </Card>
           </SwiperSlide>
           <SwiperSlide>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image2} />
               <Card.Body>
                 <Card.Title className="card-body12">

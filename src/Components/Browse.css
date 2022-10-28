@@ -5,10 +5,10 @@
   width: 90%;
   /* display: inline-block !important; */
 }
-.header-browse {
+/* .header-browse {
   margin-left: 60px;
-}
+} */
 .cards {
-  width: 82%;
-  margin-left: 60px;
+  width: 100%;
+  /* margin-left: 60px; */
 }
