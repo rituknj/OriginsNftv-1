@@ -12,8 +12,8 @@ function Footer() {
   return (
     <>
       <div style={{ backgroundColor: "#000", color: "white" }}>
-        <div className="container-fluid  py-5 px-5">
-          <div className="row">
+        <div className="container-fluid  py-5 px-5 ">
+          <div className="row" id="foter21">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
               <h3 className="keep-head">Keep posted</h3>
               <p className="subs-para">

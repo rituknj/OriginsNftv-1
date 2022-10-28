@@ -14,11 +14,11 @@ import "./Browse.css";
 export default function Browse() {
   return (
     <section>
-      <div className="container-fluid py-5 px-5">
-        <h1 className="header-browse" style={{ color: "#fff" }}>
+      <div className="container-fluid py-5 px-5 browse32" id="browse23">
+        <h1 className="header-new" style={{ color: "#fff" }}>
           Browse by category
         </h1>
-        <div className="row brow">
+        <div className="row ">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
             <Card className="cards1">
               <Card.Img variant="top" src={Browse1} className="card-img-top1" />

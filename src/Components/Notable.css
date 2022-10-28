@@ -73,6 +73,6 @@ body {
 /* .tick-icons {
   color: rgb(0, 145, 255);
 } */
-/* .header-new {
-  margin-left: 60px;
-} */
+.header-new {
+margin-bottom: 2rem;
+}

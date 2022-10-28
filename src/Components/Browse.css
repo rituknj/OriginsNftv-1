@@ -1,6 +1,13 @@
 .brow {
-  padding-top: 100px;
+  padding-top: 2rem;
 }
+.browse32{
+  padding-bottom: 5rem !important;
+}
+#browse23{
+  padding-bottom: 9rem !important;
+}
+
 .cards {
   width: 90%;
   /* display: inline-block !important; */

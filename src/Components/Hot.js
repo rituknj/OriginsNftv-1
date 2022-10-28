@@ -34,7 +34,7 @@ export default function App() {
   return (
     <section>
       <div className="container-fluid py-5 px-5">
-        <h1 className="header-hot" style={{ color: "#fff" }}>
+        <h1 className="header-new" style={{ color: "#fff" }}>
           {" "}
           Hot
         </h1>
