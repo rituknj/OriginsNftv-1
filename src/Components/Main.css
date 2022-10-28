@@ -6,21 +6,29 @@
   font-weight: 900;
   color: #fff;
 }
-
+.form-control {
+  width: 592px;
+  height: 56px;
+  background: linear-gradient(
+    158.22deg,
+    rgba(188, 188, 188, 0.21) 29.5%,
+    rgba(71, 71, 72, 0.12) 135.77%
+  );
+}
 input::placeholder {
   color: #fff !important;
 }
 .input-group {
   margin: auto;
 }
-.input-group12{
-width: 80%;
-display: block;
-margin: 1rem auto;
+.input-group12 {
+  width: 80%;
+  display: block;
+  margin: 1rem auto;
 }
-@media screen and (max-width:768px) {
-  .heading-1{
-  font-size: 32px;
-  padding: 0px;
+@media screen and (max-width: 768px) {
+  .heading-1 {
+    font-size: 32px;
+    padding: 0px;
   }
 }

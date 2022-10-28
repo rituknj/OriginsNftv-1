@@ -15,7 +15,7 @@ export default function Main() {
             </span> */}
             <input
               type="text"
-              class="form-control"
+              className="form-control"
               placeholder="Search Web3"
               aria-label="Username"
               aria-describedby="basic-addon1"

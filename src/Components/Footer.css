@@ -99,15 +99,21 @@ ul.footer2-list li {
     text-align: center;
   }
 }
+@media screen and (max-width: 512px) {
+  .icon {
+    padding-inline-start: 0px;
+    justify-content: space-evenly;
+  }
+}
 .icon {
   padding-inline-start: 0px;
-  justify-content: space-evenly;
 }
-@media screen and (max-width:550px) {
-  .icon li{
+
+@media screen and (max-width: 550px) {
+  .icon li {
     margin: 0.4rem;
   }
-  .twitter-icons{
+  .twitter-icons {
     padding: 0.4rem;
   }
   .input-group1 {
@@ -118,4 +124,3 @@ ul.footer2-list li {
     width: 100% !important;
   }
 }
-

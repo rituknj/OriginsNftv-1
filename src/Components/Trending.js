@@ -2,7 +2,16 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Table from "react-bootstrap/Table";
 // import Icon1 from "./Images/duck.png";
-import Icons from "./Images/duck.png";
+import Icons1 from "./Images/trendingimg1.png";
+import Icons2 from "./Images/trendingimg2.png";
+import Icons3 from "./Images/trendingimg3.png";
+import Icons4 from "./Images/trendingimg4.png";
+import Icons5 from "./Images/trendingimg5.png";
+import Icons6 from "./Images/trendingimg1.png";
+import Icons7 from "./Images/trendingimg2.png";
+import Icons8 from "./Images/trendingimg3.png";
+import Icons9 from "./Images/trendingimg4.png";
+import Icons10 from "./Images/trendingimg5.png";
 import "./Trending.css";
 
 function UncontrolledExample() {
@@ -43,7 +52,7 @@ function UncontrolledExample() {
                             <span className="span-sr">1</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons1} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -67,7 +76,7 @@ function UncontrolledExample() {
                             <span className="span-sr">2</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons2} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -91,7 +100,7 @@ function UncontrolledExample() {
                             <span className="span-sr">3</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons3} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -115,7 +124,7 @@ function UncontrolledExample() {
                             <span className="span-sr">4</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons4} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -139,7 +148,7 @@ function UncontrolledExample() {
                             <span className="span-sr">5</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons5} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -198,7 +207,7 @@ function UncontrolledExample() {
                 </div>
 
                 <div className="col-lg-6 col-md-6 col-sm-6 col-6 table23">
-       <Table striped bordered hover  className="table24" id="table1">
+                  <Table striped bordered hover className="table24" id="table1">
                     <div className="row">
                       <div>
                         <div className="top-col">
@@ -222,7 +231,7 @@ function UncontrolledExample() {
                             <span className="span-sr">1</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons6} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -246,7 +255,7 @@ function UncontrolledExample() {
                             <span className="span-sr">2</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons7} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -270,7 +279,7 @@ function UncontrolledExample() {
                             <span className="span-sr">3</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons8} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -294,7 +303,7 @@ function UncontrolledExample() {
                             <span className="span-sr">4</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons9} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -318,7 +327,7 @@ function UncontrolledExample() {
                             <span className="span-sr">5</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons10} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -332,8 +341,7 @@ function UncontrolledExample() {
                         </div>
                       </div>
                     </div>
-                 
-                  </Table> 
+                  </Table>
                 </div>
               </div>
             </Tab>
@@ -364,7 +372,7 @@ function UncontrolledExample() {
                             <span className="span-sr">1</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons1} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -388,7 +396,7 @@ function UncontrolledExample() {
                             <span className="span-sr">2</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons2} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -412,7 +420,7 @@ function UncontrolledExample() {
                             <span className="span-sr">3</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons3} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -436,7 +444,7 @@ function UncontrolledExample() {
                             <span className="span-sr">4</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons4} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -460,7 +468,7 @@ function UncontrolledExample() {
                             <span className="span-sr">5</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons5} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -519,7 +527,7 @@ function UncontrolledExample() {
                 </div>
 
                 <div className="col-lg-6 col-md-6 col-sm-6 col-6 table23">
-                  <Table striped bordered hover >
+                  <Table striped bordered hover>
                     <div className="row">
                       <div>
                         <div className="top-col">
@@ -543,7 +551,7 @@ function UncontrolledExample() {
                             <span className="span-sr">1</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons6} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -567,7 +575,7 @@ function UncontrolledExample() {
                             <span className="span-sr">2</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons7} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -591,7 +599,7 @@ function UncontrolledExample() {
                             <span className="span-sr">3</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons8} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -615,7 +623,7 @@ function UncontrolledExample() {
                             <span className="span-sr">4</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons9} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -639,7 +647,7 @@ function UncontrolledExample() {
                             <span className="span-sr">5</span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <img src={Icons} alt="" className="icons-1" />
+                            <img src={Icons10} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                             <p className="card-name">Nyolings</p>
@@ -653,7 +661,6 @@ function UncontrolledExample() {
                         </div>
                       </div>
                     </div>
-
                   </Table>
                 </div>
               </div>

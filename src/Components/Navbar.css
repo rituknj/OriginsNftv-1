@@ -15,6 +15,12 @@
   font-family: "Poppins";
   font-weight: 600;
 }
+.logo-1 {
+  width: 100%;
+}
+.collapse {
+  padding-top: 24px;
+}
 
 /* .input-1 {
   width: 50%;

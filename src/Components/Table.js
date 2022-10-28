@@ -1,5 +1,5 @@
 import React from "react";
-import Icons from "./Images/duck.png";
+// import Icons from "./Images/duck.png";
 import "./Table.css";
 
 export default function Table() {
@@ -13,7 +13,7 @@ export default function Table() {
                 <span>1</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>
@@ -32,7 +32,7 @@ export default function Table() {
                 <span>2</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>
@@ -53,7 +53,7 @@ export default function Table() {
                 <span>3</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>
@@ -72,7 +72,7 @@ export default function Table() {
                 <span>4</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>
@@ -93,7 +93,7 @@ export default function Table() {
                 <span>5</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>
@@ -112,7 +112,7 @@ export default function Table() {
                 <span>6</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>
@@ -133,7 +133,7 @@ export default function Table() {
                 <span>7</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>
@@ -152,7 +152,7 @@ export default function Table() {
                 <span>8</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>
@@ -173,7 +173,7 @@ export default function Table() {
                 <span>9</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>
@@ -192,7 +192,7 @@ export default function Table() {
                 <span>10</span>
               </div>
               <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                <img src={Icons} alt="" className="icons-1" />
+                {/* <img src={Icons} alt="" className="icons-1" /> */}
               </div>
               <div className="col-lg-5 col-md-5 col-sm-5 col-5">
                 <p>Nyolings</p>

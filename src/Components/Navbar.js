@@ -1,6 +1,7 @@
 import React from "react";
 // import { icons } from "react-icons";
-import Logo from "./Images/opensea.svg";
+
+import Logo from "./Images/logo.png";
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -12,8 +13,9 @@ export default function Navbar() {
       <div>
         <nav className="navbar navbar-expand-lg bg-transparent">
           <div className="container-fluid px-5">
-            {/* <img src={Logo} alt="" width={30} /> */}
-            {/* <a className="navbar-brand" href="#" style={{fontSize:'20px', fontWeight:'700'}}>openSea</a> */}
+            <a className="navbar-brand" href="/">
+              <img src={Logo} alt="" className="logo-1" />
+            </a>
 
             <form className="input-1 d-flex" role="search">
               {/* <input
@@ -40,11 +42,11 @@ export default function Navbar() {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="/">
                     ORIGINS NFT
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="/">
                     Explore

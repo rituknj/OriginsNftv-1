@@ -1,8 +1,18 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image1 from "../Components/Images/hen.avif";
-import Image2 from "../Components/Images/hen.avif";
+import Image1 from "../Components/Images/storyimg1.png";
+import Image2 from "../Components/Images/storyimg2.png";
+import Image3 from "../Components/Images/storyimg3.png";
+import Smallimg1 from "../Components/Images/rangerimg1.png";
+import Smallimg2 from "../Components/Images/rangerimg2.png";
+import Smallimg3 from "../Components/Images/rangerimg3.png";
+import Smallimg4 from "../Components/Images/rangerimg1.png";
+import Smallimg5 from "../Components/Images/rangerimg2.png";
+import Smallimg6 from "../Components/Images/rangerimg3.png";
+import Smallimg7 from "../Components/Images/rangerimg1.png";
+import Smallimg8 from "../Components/Images/rangerimg2.png";
+
 import Card from "react-bootstrap/Card";
 
 // Import Swiper styles
@@ -59,7 +69,7 @@ export default function App() {
                   <span>
                     {" "}
                     <img
-                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      src={Smallimg1}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
@@ -78,13 +88,13 @@ export default function App() {
           <SwiperSlide>
             {" "}
             <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image1} />
+              <Card.Img variant="top" src={Image2} />
               <Card.Body>
                 <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      src={Smallimg2}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
@@ -103,13 +113,13 @@ export default function App() {
           <SwiperSlide>
             {" "}
             <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image2} />
+              <Card.Img variant="top" src={Image3} />
               <Card.Body>
                 <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      src={Smallimg3}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
@@ -134,7 +144,7 @@ export default function App() {
                   <span>
                     {" "}
                     <img
-                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      src={Smallimg4}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
@@ -159,7 +169,7 @@ export default function App() {
                   <span>
                     {" "}
                     <img
-                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      src={Smallimg5}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
@@ -178,13 +188,13 @@ export default function App() {
           <SwiperSlide>
             {" "}
             <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image1} />
+              <Card.Img variant="top" src={Image3} />
               <Card.Body>
                 <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      src={Smallimg5}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
@@ -203,13 +213,13 @@ export default function App() {
           <SwiperSlide>
             {" "}
             <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image2} />
+              <Card.Img variant="top" src={Image1} />
               <Card.Body>
                 <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      src={Smallimg6}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
@@ -228,13 +238,13 @@ export default function App() {
           <SwiperSlide>
             {" "}
             <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image1} />
+              <Card.Img variant="top" src={Image2} />
               <Card.Body>
                 <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      src={Smallimg7}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
@@ -252,13 +262,13 @@ export default function App() {
           </SwiperSlide>
           <SwiperSlide>
             <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image2} />
+              <Card.Img variant="top" src={Image3} />
               <Card.Body>
                 <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src="https://i.seadn.io/gcs/files/c00d3dd212a1b3b9a2340cb15e81a880.png?auto=format&w=128"
+                      src={Smallimg8}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
