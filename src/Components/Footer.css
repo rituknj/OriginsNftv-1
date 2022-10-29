@@ -6,6 +6,11 @@
   margin: 1rem;
   font-size: 1.5rem;
 }
+/* .icon li :hover{
+  margin: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+} */
 .signup {
   font-size: 1.2rem;
   padding: 10px;
@@ -63,11 +68,12 @@ input::placeholder {
 ul.footer2-list {
   padding-inline-start: 0px !important;
 }
-/* ul.footer2-list li:hover {
-  font-size: 15px;
-} */
+ul.footer2-list li:hover {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
 ul.footer2-list li {
-  margin-top: 12px;
+  margin-top: 20px;
   font-size: 1.2rem;
 }
 .keep-head {

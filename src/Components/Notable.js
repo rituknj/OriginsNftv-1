@@ -78,7 +78,9 @@ export default function App(props) {
           <SwiperSlide>
             <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image1} />
-              <Card.Body>
+              <Card.Body style={{
+                  color: props.mode === "light" ? "black " : "white ",
+                }}>
                 <Card.Title className="card-body12">
                   <span>
                     {" "}
@@ -92,8 +94,8 @@ export default function App(props) {
                   <span
                     className="text32"
                     style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
                   >
                     Somnium Space VR
                   </span>
@@ -127,8 +129,8 @@ export default function App(props) {
                   <span
                     className="text32"
                     style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
                   >
                     Anzu Jungle
                   </span>
@@ -159,8 +161,8 @@ export default function App(props) {
                   <span
                     className="text32"
                     style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
                   >
                     Red Angrybol
                   </span>
@@ -191,8 +193,8 @@ export default function App(props) {
                   <span
                     className="text32"
                     style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
                   >
                     Somnium Space VR
                   </span>
@@ -223,8 +225,8 @@ export default function App(props) {
                   <span
                     className="text32"
                     style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
                   >
                     Anzu Jungle
                   </span>
@@ -255,8 +257,8 @@ export default function App(props) {
                   <span
                     className="text32"
                     style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
                   >
                     Red Angrybol
                   </span>
@@ -287,8 +289,8 @@ export default function App(props) {
                   <span
                     className="text32"
                     style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
                   >
                     Somnium Space VR
                   </span>
@@ -319,8 +321,8 @@ export default function App(props) {
                   <span
                     className="text32"
                     style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
                   >
                     Anzu Jungle
                   </span>
@@ -336,7 +338,7 @@ export default function App(props) {
           <SwiperSlide>
             <Card style={{ width: "45rem" }}>
               <Card.Img variant="top" src={Image9} />
-              <Card.Body>
+              <Card.Body >
                 <Card.Title className="card-body12">
                   <span>
                     {" "}
@@ -350,8 +352,8 @@ export default function App(props) {
                   <span
                     className="text32"
                     style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
                   >
                     Red Angrybol
                   </span>
