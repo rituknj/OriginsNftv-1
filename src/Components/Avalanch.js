@@ -24,11 +24,13 @@ import "./Avalanch.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
-export default function App() {
+export default function App(props) {
   return (
-    <section>
+    <div className={`Avalanch avalanch-${props.mode} bg-${props.mode}`}>
       <div className="container-fluid  py-5 px-5">
-        <h1 className="header-new" style={{ color: "#fff" }}>
+        <h1 className="header-new"  style={{
+                  color: props.mode === "light" ? "black " : "white ",
+                }}>
           Storytelling NFTs spotlight{" "}
         </h1>
         <Swiper
@@ -63,7 +65,9 @@ export default function App() {
         >
           <SwiperSlide>
             <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image1} />
+              <Card.Img variant="top" src={Image1}  style={{
+                  color: props.mode === "light" ? "black " : "white ",
+                }}/>
               <Card.Body>
                 <Card.Title className="card-body12">
                   <span>
@@ -286,6 +290,6 @@ export default function App() {
           </SwiperSlide>
         </Swiper>
       </div>
-    </section>
+    </div>
   );
 }

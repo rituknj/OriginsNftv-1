@@ -8,15 +8,27 @@ import { FiInstagram } from "react-icons/fi";
 // import { CgMail } from "react-icons/cg";
 import "./Footer.css";
 
-function Footer() {
+function Footer(props) {
   return (
     <>
-      <div style={{ backgroundColor: "#000", color: "white" }}>
+      <div className={`Footer footer-${props.mode} bg-${props.mode}`}>
         <div className="container-fluid  py-5 px-5 ">
           <div className="row" id="foter21">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-              <h3 className="keep-head">Keep posted</h3>
-              <p className="subs-para">
+              <h3
+                className="keep-head"
+                style={{
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
+              >
+                Keep posted
+              </h3>
+              <p
+                className="subs-para"
+                style={{
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
+              >
                 Subscribe to our newsletter to stay in the loop with our newest
                 feature
                 <br /> release, NFT drops, and tips and tricks for navigating
@@ -29,14 +41,31 @@ function Footer() {
                   placeholder="Enter email address..."
                   aria-label="Recipient's username"
                   aria-describedby="button-addon2"
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                  }}
                 />
-                <button className="signup" type="button" id="button-addon2">
+                <button
+                  className="signup"
+                  type="button"
+                  id="button-addon2"
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                  }}
+                >
                   Subscribe
                 </button>
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-              <h3 className="join-header">Join the community</h3>
+              <h3
+                className="join-header"
+                style={{
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
+              >
+                Join the community
+              </h3>
               <div>
                 <ul className="icon">
                   <li className="twitter-icons">
@@ -72,9 +101,21 @@ function Footer() {
                 /> */}
                 <br />
                 <br />
-                <h5 className="origins-head">Origins Marketplace</h5>
+                <h5
+                  className="origins-head"
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                  }}
+                >
+                  Origins Marketplace
+                </h5>
                 <br />
-                <p className="origins-para">
+                <p
+                  className="origins-para"
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                  }}
+                >
                   The Origins Token ($ORGNS) is an intercontinental
                   cryptocurrency primed to become an integral part of a global
                   ecosystem where artist, creators, investors and the general
@@ -84,39 +125,162 @@ function Footer() {
               </div>
               <div className="col-lg-2 col-md-3 col-sm-6 col-6">
                 {" "}
-                <h5 className="list-heading">Marketplace</h5>
+                <h5
+                  className="list-heading"
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                  }}
+                >
+                  Marketplace
+                </h5>
                 <ul className="footer2-list">
-                  <li>All NFTs</li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    All NFTs
+                  </li>
 
-                  <li>Art</li>
-                  <li>Collectibles</li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Art
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Collectibles
+                  </li>
 
-                  <li>Photography</li>
-                  <li>Recordian</li>
-                  <li>Videos</li>
-                  <li>Trending</li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Photography
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Recordian
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Videos
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Trending
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-2 col-md-3 col-sm-6 col-6">
                 {" "}
-                <h5 className="list-heading">My Profile</h5>
+                <h5
+                  className="list-heading"
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                  }}
+                >
+                  My Profile
+                </h5>
                 <ul className="footer2-list">
-                  <li>Overview</li>
-                  <li>Favourites</li>
-                  <li>Watchlist</li>
-                  <li>My Collections</li>
-                  <li>Settings</li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Overview
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Favourites
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Watchlist
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    My Collections
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Settings
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-2 col-md-3 col-sm-6 col-6">
                 {" "}
-                <h5 className="list-heading">Resources</h5>
+                <h5
+                  className="list-heading"
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                  }}
+                >
+                  Resources
+                </h5>
                 <ul className="footer2-list">
-                  <li>Docs</li>
-                  <li>Partners</li>
-                  <li>Advertisement</li>
-                  <li>Newsletter</li>
-                  <li>Socials</li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Docs
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Partners
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Advertisement
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Newsletter
+                  </li>
+                  <li
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Socials
+                  </li>
                 </ul>
               </div>
             </div>

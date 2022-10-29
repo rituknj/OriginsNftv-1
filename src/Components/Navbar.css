@@ -9,7 +9,7 @@
   font-size: 32px;
   font-weight: 700;
   padding-right: 20px;
-  color: #fff;
+  /* color: #fff; */
 }
 .navbar-nav {
   font-family: "Poppins";
@@ -26,7 +26,7 @@
   width: 50%;
 } */
 .nav-link.active {
-  color: #fff !important;
+  /* color: #fff !important; */
   font-size: 20px !important;
   font-weight: 28px !important;
   font-family: "Poppins" sans-serif !important;

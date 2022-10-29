@@ -19,9 +19,9 @@ import "./Slider1.css";
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
 
-export default function App() {
+export default function App(props) {
   return (
-    <section>
+    <div className={`Slider slider-${props.mode} bg-${props.mode}`}>
       <div className="container-fluid py-5 ">
         <Swiper
           slidesPerView={1}
@@ -54,7 +54,9 @@ export default function App() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img src={Image1} alt="" className="slider1" />
+            <img src={Image1} alt="" className="slider1" style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }} />
           </SwiperSlide>
           <SwiperSlide>
             {" "}
@@ -89,7 +91,7 @@ export default function App() {
           </SwiperSlide>
         </Swiper>
       </div>
-    </section>
+    </div>
   );
 }
 

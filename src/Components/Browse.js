@@ -11,17 +11,21 @@ import Browse9 from "../Components/Images/virtual-worlds.webp";
 import Card from "react-bootstrap/Card";
 import "./Browse.css";
 
-export default function Browse() {
+export default function Browse(props) {
   return (
-    <section>
+    <div className={`Browse browse-${props.mode} bg-${props.mode}`}>
       <div className="container-fluid py-5 px-5 browse32" id="browse23">
-        <h1 className="header-new" style={{ color: "#fff" }}>
+        <h1 className="header-new"  style={{
+                  color: props.mode === "light" ? "black " : "white ",
+                }}>
           Browse by category
         </h1>
         <div className="row ">
           <div className="col-lg-4 col-md-4 col-sm-12 col-12">
             <Card className="cards1">
-              <Card.Img variant="top" src={Browse1} className="card-img-top1" />
+              <Card.Img variant="top" src={Browse1} className="card-img-top1"  style={{
+                  color: props.mode === "light" ? "black " : "white ",
+                }} />
               <Card.Body className="card-body1">
                 <Card.Title
                   style={{ textAlign: "center" }}
@@ -121,6 +125,6 @@ export default function Browse() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

@@ -32,11 +32,16 @@ import "./Notable.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
-export default function App() {
+export default function App(props) {
   return (
-    <section>
+    <div className={`Navbar  navbar-${props.mode} bg-${props.mode}`}>
       <div className="container-fluid  py-5 px-5">
-        <h1 className="header-new" style={{ color: "#fff" }}>
+        <h1
+          className="header-new"
+          style={{
+            color: props.mode === "light" ? "black " : "white ",
+          }}
+        >
           {" "}
           New and notable
         </h1>
@@ -84,7 +89,14 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR</span>
+                  <span
+                    className="text32"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Somnium Space VR
+                  </span>
                   <span className="tick-icons">
                     <BsFillPatchCheckFill className="tick" />
                   </span>
@@ -112,7 +124,14 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Anzu Jungle</span>
+                  <span
+                    className="text32"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Anzu Jungle
+                  </span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -137,7 +156,14 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Red Angrybol</span>
+                  <span
+                    className="text32"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Red Angrybol
+                  </span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -162,7 +188,14 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR</span>
+                  <span
+                    className="text32"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Somnium Space VR
+                  </span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -187,7 +220,14 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Anzu Jungle</span>
+                  <span
+                    className="text32"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Anzu Jungle
+                  </span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -212,7 +252,14 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Red Angrybol</span>
+                  <span
+                    className="text32"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Red Angrybol
+                  </span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -237,7 +284,14 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR</span>
+                  <span
+                    className="text32"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Somnium Space VR
+                  </span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -262,7 +316,14 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Anzu Jungle</span>
+                  <span
+                    className="text32"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Anzu Jungle
+                  </span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -286,7 +347,14 @@ export default function App() {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Red Angrybol</span>
+                  <span
+                    className="text32"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
+                    Red Angrybol
+                  </span>
                 </Card.Title>
                 {/* <Card.Text>
                   Some quick example text to build on the card title and make up
@@ -298,6 +366,6 @@ export default function App() {
           </SwiperSlide>
         </Swiper>
       </div>
-    </section>
+    </div>
   );
 }

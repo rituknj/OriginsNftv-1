@@ -14,9 +14,9 @@ import Icons9 from "./Images/trendingimg4.png";
 import Icons10 from "./Images/trendingimg5.png";
 import "./Trending.css";
 
-function UncontrolledExample() {
+function UncontrolledExample(props) {
   return (
-    <section>
+    <div className={`Trending  trending-${props.mode} bg-${props.mode}`}>
       <div className="container-fluid py-5 px-5">
         <div className="row">
           <Tabs
@@ -32,13 +32,34 @@ function UncontrolledExample() {
                       <div>
                         <div className="top-col">
                           <div className="colllect">
-                            <span>COLLECTION</span>
+                            <span
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              COLLECTION
+                            </span>
                           </div>
                           <div className="floor">
-                            <span>FLOOR PRICE</span>
+                            <span
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              FLOOR PRICE
+                            </span>
                           </div>
                           <div className="volume">
-                            <span>VOLUME</span>
+                            <span
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              VOLUME
+                            </span>
                           </div>
                         </div>
                       </div>
@@ -49,19 +70,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">1</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons1} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -73,19 +126,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">2</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              2
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons2} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -97,19 +182,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">3</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons3} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -121,19 +238,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">4</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              4
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons4} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -145,19 +294,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">5</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              5
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons5} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -171,13 +352,34 @@ function UncontrolledExample() {
                       <div>
                         <div className="top-col">
                           <div className="colllect">
-                            <span>COLLECTION</span>
+                            <span
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              COLLECTION
+                            </span>
                           </div>
                           <div className="floor">
-                            <span>FLOOR PRICE</span>
+                            <span
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              FLOOR PRICE
+                            </span>
                           </div>
                           <div className="volume">
-                            <span>VOLUME</span>
+                            <span
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              VOLUME
+                            </span>
                           </div>
                         </div>
                       </div>
@@ -187,19 +389,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">1</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons6} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -211,19 +445,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">2</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              2
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons7} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -235,19 +501,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">3</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons8} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -259,19 +557,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">4</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              4
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons9} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -283,19 +613,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">5</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              5
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons10} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -311,13 +673,34 @@ function UncontrolledExample() {
                     <div>
                       <div className="top-col">
                         <div className="colllect">
-                          <span>COLLECTION</span>
+                          <span
+                            style={{
+                              color:
+                                props.mode === "light" ? "black " : "white ",
+                            }}
+                          >
+                            COLLECTION
+                          </span>
                         </div>
                         <div className="floor">
-                          <span>FLOOR PRICE</span>
+                          <span
+                            style={{
+                              color:
+                                props.mode === "light" ? "black " : "white ",
+                            }}
+                          >
+                            FLOOR PRICE
+                          </span>
                         </div>
                         <div className="volume">
-                          <span>VOLUME</span>
+                          <span
+                            style={{
+                              color:
+                                props.mode === "light" ? "black " : "white ",
+                            }}
+                          >
+                            VOLUME
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -328,19 +711,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">1</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons1} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -352,19 +767,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">2</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              2
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons2} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -376,19 +823,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">3</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons3} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -400,19 +879,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">4</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              4
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons4} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -424,19 +935,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">5</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              5
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons5} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -450,13 +993,34 @@ function UncontrolledExample() {
                       <div>
                         <div className="top-col">
                           <div className="colllect">
-                            <span>COLLECTION</span>
+                            <span
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              COLLECTION
+                            </span>
                           </div>
                           <div className="floor">
-                            <span>FLOOR PRICE</span>
+                            <span
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              FLOOR PRICE
+                            </span>
                           </div>
                           <div className="volume">
-                            <span>VOLUME</span>
+                            <span
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              VOLUME
+                            </span>
                           </div>
                         </div>
                       </div>
@@ -466,19 +1030,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">1</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons6} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -490,19 +1086,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">2</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              2
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons7} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -514,19 +1142,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">3</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons8} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -538,19 +1198,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">4</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              4
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons9} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -562,19 +1254,51 @@ function UncontrolledExample() {
                             className="col-lg-1 col-md-1 col-sm-1 col-1"
                             style={{ textAlign: "right" }}
                           >
-                            <span className="span-sr">5</span>
+                            <span
+                              className="span-sr"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              5
+                            </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
                             <img src={Icons10} alt="" className="icons-1" />
                           </div>
                           <div className="col-lg-5 col-md-5 col-sm-5 col-5">
-                            <p className="card-name">RENGA</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              RENGA
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">3.09 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              3.09 ETH
+                            </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
-                            <p className="card-name">1,189 ETH</p>
+                            <p
+                              className="card-name"
+                              style={{
+                                color:
+                                  props.mode === "light" ? "black " : "white ",
+                              }}
+                            >
+                              1,189 ETH
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -584,7 +1308,7 @@ function UncontrolledExample() {
               </div>
             </Tab>
           </Tabs>
- {/*          <div className="row d-flex">
+          {/*          <div className="row d-flex">
             <div className="col-lg-6 col-md-6 col-sm-6 col-12">
               <div className="dropdown" style={{ textAlign: "right" }}>
                 <button
@@ -631,7 +1355,7 @@ function UncontrolledExample() {
           </div> */}
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

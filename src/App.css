@@ -5,3 +5,6 @@ section {
 .nav-icons {
   text-decoration: none;
 }
+:root{
+--abc:linear-gradient(to right, #47474a, #73525c);
+}

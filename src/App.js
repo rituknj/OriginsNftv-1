@@ -1,5 +1,6 @@
 import "./App.css";
 // import Footer from "./Components/Footer";
+import React, { useState, useEffect } from "react";
 import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
 import Trending from "./Components/Trending";
@@ -12,19 +13,29 @@ import Table from "./Components/Table";
 import Hot from "./Components/Hot";
 
 function App() {
+  const [mode, setMode] = useState("dark");
+  const toggleMode = () => {
+    if (mode === "light") {
+      setMode("dark");
+      document.body.style.backgroundColor = "black";
+    } else {
+      setMode("light");
+      document.body.style.backgroundColor = "white";
+    }
+  };
   return (
     <div className="App">
-      <Navbar />
-      <Main />
+      <Navbar mode={mode} toggleMode={toggleMode} />
+      <Main mode={mode} toggleMode={toggleMode} />
 
-      <Trending />
+      <Trending mode={mode} toggleMode={toggleMode}/>
       {/* <Table /> */}
-      <Notable />
-      <Avalanch />
-      <Hot />
+      <Notable mode={mode} toggleMode={toggleMode}/>
+      <Avalanch mode={mode} toggleMode={toggleMode}/>
+      <Hot mode={mode} toggleMode={toggleMode}/>
       {/*       <Toyslider /> */}
-      <Browse />
-      <Footer />
+      <Browse mode={mode} toggleMode={toggleMode}/>
+      <Footer mode={mode} toggleMode={toggleMode}/>
     </div>
   );
 }

@@ -1,20 +1,29 @@
-import React from "react";
 // import { icons } from "react-icons";
+import React, { useState } from "react";
 
 import Logo from "./Images/logo.png";
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { BsFillSunFill } from "react-icons/bs";
 import "./Navbar.css";
 
-export default function Navbar() {
+export default function Navbar(props) {
+  // const [mode, setMode] = useState(false);
   return (
-    <section>
+    <div className={`Navbar  navbar-${props.mode} bg-${props.mode}`}>
       <div>
         <nav className="navbar navbar-expand-lg bg-transparent">
           <div className="container-fluid px-5">
             <a className="navbar-brand" href="/">
-              <img src={Logo} alt="" className="logo-1" />
+              <img
+                src={Logo}
+                alt=""
+                className="logo-1"
+                style={{
+                  color: props.mode === "light" ? "black " : "white ",
+                }}
+              />
             </a>
 
             <form className="input-1 d-flex" role="search">
@@ -48,22 +57,50 @@ export default function Navbar() {
                   </a>
                 </li> */}
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="/"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
                     Explore
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="/"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
                     Stats
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="/"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
                     Resources
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
+                    href="/"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
                     Create
                   </a>
                 </li>
@@ -73,19 +110,40 @@ export default function Navbar() {
             <div>
               <ul className="nav-icons navicon23">
                 <li className="nav-icons-1">
-                  <CgProfile />
+                  <div
+                    className={`form-check form-switch  text-${
+                      props.mode === "light" ? "dark" : "light"
+                    }`}
+                  >
+                    <BsFillSunFill onClick={props.toggleMode} size={30} />
+                  </div>
                 </li>
                 <li className="nav-icons-1">
-                  <MdOutlineAccountBalanceWallet />
+                  <CgProfile
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  />
                 </li>
                 <li className="nav-icons-1">
-                  <AiOutlineShoppingCart />
+                  <MdOutlineAccountBalanceWallet
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  />
+                </li>
+                <li className="nav-icons-1">
+                  <AiOutlineShoppingCart
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  />
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
-    </section>
+    </div>
   );
 }

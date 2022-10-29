@@ -7,10 +7,10 @@ body {
   height: 100%;
 }
 body {
-  background: #eee;
+  /* background: #eee; */
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color: #000;
+  /* color: #000; */
   margin: 0;
   padding: 0;
 }
@@ -49,7 +49,7 @@ body {
   margin-top: -26px !important;
 }
 .card-body {
-  background: grey;
+  /* background: grey; */
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -59,7 +59,7 @@ body {
   border: 4px solid rgb(255, 255, 255);
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 8%) 0px 5px 10px;
-  background-color: rgb(99, 95, 95);
+  /* background-color: rgb(99, 95, 95); */
   object-fit: cover;
 }
 .text32 {
@@ -68,7 +68,7 @@ body {
   padding-left: 16px;
 }
 .tick {
-  color: #eee;
+  /* color: #eee; */
 }
 /* .tick-icons {
   color: rgb(0, 145, 255);
