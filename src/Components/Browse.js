@@ -41,7 +41,7 @@ export default function Browse(props) {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 browse-card">
             <Card className="cards2">
               <Card.Img variant="top" src={Browse2} className="card-img-top1" />
               <Card.Body className="card-body1">
@@ -59,7 +59,7 @@ export default function Browse(props) {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 browse-card">
             <Card className="cards3">
               <Card.Img variant="top" src={Browse3} className="card-img-top1" />
               <Card.Body className="card-body1">
@@ -79,7 +79,7 @@ export default function Browse(props) {
           </div>
         </div>
         <div className="row brow">
-          <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 browse-card">
             <Card className="cards4">
               <Card.Img variant="top" src={Browse4} className="card-img-top1" />
               <Card.Body className="card-body1">
@@ -97,7 +97,7 @@ export default function Browse(props) {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 browse-card">
             <Card className="cards5">
               <Card.Img variant="top" src={Browse5} className="card-img-top1" />
               <Card.Body className="card-body1">
@@ -110,7 +110,7 @@ export default function Browse(props) {
               </Card.Body>
             </Card>
           </div>
-          <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-12 browse-card">
             <Card className="cards6">
               <Card.Img variant="top" src={Browse6} className="card-img-top1" />
               <Card.Body className="card-body1">

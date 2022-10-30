@@ -99,6 +99,9 @@ ul.footer2-list li {
   .list-heading {
     text-align: center;
   }
+  .icon{
+    justify-content: space-around;
+  }
 }
 @media screen and (max-width: 992px) {
   .footer-opensea {

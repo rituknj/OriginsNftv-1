@@ -19,7 +19,7 @@ import Smallimg6 from "../Components/Images/new-img3.png";
 import Smallimg7 from "../Components/Images/new-img1.png";
 import Smallimg8 from "../Components/Images/new-img2.png";
 import Smallimg9 from "../Components/Images/new-img3.png";
-// import vector from "./Images/check.png";
+import vector1 from "./Images/check.png";
 
 import Card from "react-bootstrap/Card";
 import { BsFillPatchCheckFill } from "react-icons/bs";
@@ -65,7 +65,7 @@ export default function App(props) {
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 40,
             },
             1024: {
@@ -96,10 +96,10 @@ export default function App(props) {
                       className="card-image1"
                     />{" "}
                   </span>
-                  <span className="text32">Somnium Space VR</span>
+                  <span className="text32">Somnium Space VR </span>
                   <span className="tick-icons">
-                  {/* <img src={vector} alt="" className="vector-img"/> */}
-                    <BsFillPatchCheckFill className="tick" />
+                  
+                    {/* <BsFillPatchCheckFill className="tick" /> */}
                   </span>
                 </Card.Title>
                 {/* <Card.Text>

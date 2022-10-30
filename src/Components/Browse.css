@@ -72,3 +72,32 @@
   color: white !important;
   font-size: 25px !important;
 }
+@media screen and (max-width:768px) {
+  .browse-card{
+    margin-top: 10px !important;
+  }
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width:768px) {
+  .card-title1{
+    margin-top: -15px !important;
+    font-size: 1.4rem !important;
+  }
+  
+}
+@media screen and (max-width:840px) {
+  .card-title1{
+    margin-top: -15px !important;
+    font-size: 1.4rem !important;
+  }
+  
+}
+@media screen and (max-width:912px) {
+  .card-title1{
+    margin-top: -8px !important;
+    font-size: 1.4rem !important;
+  }
+  
+}
