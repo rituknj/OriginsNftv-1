@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 
 import Logo from "./Images/logo.png";
+import Logo2 from "./Images/logowhitemode.png";
 import { CgProfile } from "react-icons/cg";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -9,6 +10,7 @@ import { BsFillSunFill } from "react-icons/bs";
 import "./Navbar.css";
 
 export default function Navbar(props) {
+  const [show1, setShow1] = useState(false);
   // const [mode, setMode] = useState(false);
   return (
     <div className={`Navbar  navbar-${props.mode} bg-${props.mode}`}>
@@ -16,14 +18,25 @@ export default function Navbar(props) {
         <nav className="navbar navbar-expand-lg bg-transparent">
           <div className="container-fluid px-5">
             <a className="navbar-brand" href="/">
-              <img
-                src={Logo}
-                alt=""
-                className="logo-1"
-                style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                }}
-              />
+              {!show1 ? (
+                <img
+                  src={Logo}
+                  alt=""
+                  className="logo-1"
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                  }}
+                />
+              ) : (
+                <img
+                  src={Logo2}
+                  alt=""
+                  className="logo-1"
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                  }}
+                />
+              )}
             </a>
 
             <form className="input-1 d-flex" role="search">
@@ -104,20 +117,26 @@ export default function Navbar(props) {
                     Create
                   </a>
                 </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul className="nav-icons navicon23">
-                <li className="nav-icons-1">
+                <li className="nav-icons-2">
                   <div
                     className={`form-check form-switch  text-${
                       props.mode === "light" ? "dark" : "light"
                     }`}
                   >
-                    <BsFillSunFill onClick={props.toggleMode} size={30} />
+                    <span
+                      onClick={() => {
+                        setShow1(!show1);
+                      }}
+                    >
+                      <BsFillSunFill onClick={props.toggleMode} size={30} />
+                    </span>
                   </div>
                 </li>
+              </ul>
+            </div>
+
+            <div>
+              <ul className="nav-icons navicon23">
                 <li className="nav-icons-1">
                   <CgProfile
                     style={{

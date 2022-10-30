@@ -12,6 +12,7 @@ import Icons7 from "./Images/trendingimg2.png";
 import Icons8 from "./Images/trendingimg3.png";
 import Icons9 from "./Images/trendingimg4.png";
 import Icons10 from "./Images/trendingimg5.png";
+import vector from "./Images/check.png";
 import "./Trending.css";
 
 function UncontrolledExample(props) {
@@ -91,7 +92,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA<img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -147,7 +148,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA <img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -203,7 +204,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA <img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -259,7 +260,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA <img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -315,7 +316,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA <img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -396,7 +397,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              1
+                              6
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -452,7 +453,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              2
+                              7
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -508,7 +509,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              3
+                              8
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -564,7 +565,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              4
+                              9
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -620,7 +621,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              5
+                              10
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -732,7 +733,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA <img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -788,7 +789,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA <img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -844,7 +845,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA <img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -900,7 +901,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA <img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -956,7 +957,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA
+                              RENGA <img src={vector} alt="" className="vector-img"/>
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -1037,7 +1038,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              1
+                              6
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -1093,7 +1094,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              2
+                              7
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -1149,7 +1150,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              3
+                              8
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -1205,7 +1206,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              4
+                              9
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -1261,7 +1262,7 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              5
+                              10
                             </span>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
