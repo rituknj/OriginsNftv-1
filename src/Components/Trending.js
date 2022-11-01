@@ -22,18 +22,34 @@ function UncontrolledExample(props) {
       <div className="container-fluid py-5 px-5">
         <div className="row">
           <Tabs>
-            <TabList style={{
+            <TabList
+              style={{
+                color: props.mode === "light" ? "black " : "white ",
+              }}
+            >
+              <Tab
+                style={{
                   color: props.mode === "light" ? "black " : "white ",
-                }}>
-              <Tab style={{
+                }}
+              >
+                Trending
+              </Tab>
+              <Tab
+                style={{
                   color: props.mode === "light" ? "black " : "white ",
-                }}>Trending</Tab>
-              <Tab style={{
+                }}
+              >
+                Top
+              </Tab>
+              <span
+                className="h24"
+                style={{
                   color: props.mode === "light" ? "black " : "white ",
-                }}>Top</Tab>
-              <span className="h24" style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                }}>View All</span>
+                  borderColor: props.mode === "light" ? "black " : "white ",
+                }}
+              >
+                View All
+              </span>
               <button
                 className="h25"
                 type="button"
@@ -41,38 +57,68 @@ function UncontrolledExample(props) {
                 aria-expanded="false"
                 style={{
                   color: props.mode === "light" ? "black " : "white ",
+                  backgroundColor:
+                    props.mode === "light" ? "white " : "#212529 ",
                 }}
               >
-                24 h <AiOutlineCaretDown style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                }}/>
+                24 h{" "}
+                <AiOutlineCaretDown
+                  style={{
+                    color: props.mode === "light" ? "black " : "white ",
+                    borderColor: props.mode === "light" ? "black " : "white ",
+                  }}
+                />
               </button>
-              <ul className="dropdown-menu" >
-                <li>
-                  <a className="dropdown-item" href="/" style={{
+              <ul
+                className="dropdown-menu"
+                style={{
                   color: props.mode === "light" ? "black " : "white ",
-                }}>
+                  backgroundColor:
+                    props.mode === "light" ? "white " : "#212529 ",
+                  borderColor: props.mode === "light" ? "black " : "white ",
+                }}
+              >
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="/"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
                     24 h
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/" style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                }}>
+                  <a
+                    className="dropdown-item"
+                    href="/"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
                     7 d
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/" style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                }}>
+                  <a
+                    className="dropdown-item"
+                    href="/"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
                     30 d
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/" style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                }}>
+                  <a
+                    className="dropdown-item"
+                    href="/"
+                    style={{
+                      color: props.mode === "light" ? "black " : "white ",
+                    }}
+                  >
                     All
                   </a>
                 </li>

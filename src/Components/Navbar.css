@@ -52,6 +52,11 @@
   border: none !important;
   isolation: none !important;
 }
+
+button.navbar-toggler {
+  background-color: #c7c7c7 !important;
+}
+
 @media screen and (max-width: 992px) {
   .navicon23 {
     display: none !important;
