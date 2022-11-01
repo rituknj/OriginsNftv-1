@@ -92,7 +92,7 @@ body {
 .swiper-slide {
   font-size: 18px;
   /* background: #fff; */
-overflow: hidden !important;
+  overflow: hidden !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -156,5 +156,17 @@ span.swiper-pagination-bullet {
 }
 .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
   display: flex !important;
-  margin-left: 700px !important;
+  margin-left: 33% !important;
+}
+.swiper-wrapper {
+  height: 90% !important;
+}
+.swiper213 {
+  height: 28rem !important;
+}
+@media screen and (max-width: 512px) {
+  .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: flex !important;
+    margin-left: 13% !important;
+  }
 }

@@ -1,6 +1,7 @@
-import Tab from "react-bootstrap/Tab";
-import Tabs from "react-bootstrap/Tabs";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 import Table from "react-bootstrap/Table";
+import { AiOutlineCaretDown } from "react-icons/ai";
 // import Icon1 from "./Images/duck.png";
 import Icons1 from "./Images/trendingimg1.png";
 import Icons2 from "./Images/trendingimg2.png";
@@ -20,12 +21,44 @@ function UncontrolledExample(props) {
     <div className={`Trending  trending-${props.mode} bg-${props.mode}`}>
       <div className="container-fluid py-5 px-5">
         <div className="row">
-          <Tabs
-            defaultActiveKey="profile"
-            id="uncontrolled-tab-example"
-            className="mb-3 uncontrolled"
-          >
-            <Tab eventKey="home" title="Trending">
+          <Tabs>
+            <TabList>
+              <Tab>Trending</Tab>
+              <Tab>Top</Tab>
+              <span className="h24">View All</span>
+              <button
+                className="h25"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                24 h <AiOutlineCaretDown />
+              </button>
+              <ul className="dropdown-menu">
+                <li>
+                  <a className="dropdown-item" href="/">
+                    24 h
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/">
+                    7 d
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/">
+                    30 d
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/">
+                    All
+                  </a>
+                </li>
+              </ul>
+            </TabList>
+
+            <TabPanel>
               <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                   <Table striped bordered hover>
@@ -92,7 +125,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA<img src={vector} alt="" className="vector-img"/>
+                              RENGA
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -148,7 +182,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA <img src={vector} alt="" className="vector-img"/>
+                              RENGA{" "}
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -204,7 +239,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA <img src={vector} alt="" className="vector-img"/>
+                              RENGA{" "}
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -260,7 +296,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA <img src={vector} alt="" className="vector-img"/>
+                              RENGA{" "}
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -316,7 +353,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA <img src={vector} alt="" className="vector-img"/>
+                              RENGA{" "}
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -666,8 +704,8 @@ function UncontrolledExample(props) {
                   </Table>
                 </div>
               </div>
-            </Tab>
-            <Tab eventKey="profile" title="Top">
+            </TabPanel>
+            <TabPanel>
               <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                   <Table striped bordered hover>
@@ -733,7 +771,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA <img src={vector} alt="" className="vector-img"/>
+                              RENGA{" "}
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -789,7 +828,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA <img src={vector} alt="" className="vector-img"/>
+                              RENGA{" "}
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -845,7 +885,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA <img src={vector} alt="" className="vector-img"/>
+                              RENGA{" "}
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -901,7 +942,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA <img src={vector} alt="" className="vector-img"/>
+                              RENGA{" "}
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -957,7 +999,8 @@ function UncontrolledExample(props) {
                                   props.mode === "light" ? "black " : "white ",
                               }}
                             >
-                              RENGA <img src={vector} alt="" className="vector-img"/>
+                              RENGA{" "}
+                              <img src={vector} alt="" className="vector-img" />
                             </p>
                           </div>
                           <div className="col-lg-2 col-md-2 col-sm-2 col-2">
@@ -1307,9 +1350,18 @@ function UncontrolledExample(props) {
                   </Table>
                 </div>
               </div>
-            </Tab>
+            </TabPanel>
           </Tabs>
-          {/*          <div className="row d-flex">
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default UncontrolledExample;
+
+{
+  /*          <div className="row d-flex">
             <div className="col-lg-6 col-md-6 col-sm-6 col-12">
               <div className="dropdown" style={{ textAlign: "right" }}>
                 <button
@@ -1353,11 +1405,5 @@ function UncontrolledExample(props) {
                 View all
               </button>
             </div>
-          </div> */}
-        </div>
-      </div>
-    </div>
-  );
+          </div> */
 }
-
-export default UncontrolledExample;

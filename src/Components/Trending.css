@@ -110,7 +110,7 @@
 .top-col {
   display: flex;
 }
-.vector-img{
+.vector-img {
   /* background: #fff; */
   border-radius: 100px;
   margin-left: 10px;
@@ -151,13 +151,47 @@
 .nav-tabs .nav-link.active {
   font-size: 35px !important;
 }
-@media screen and (max-width:992px) {
-  .table23{
-    display: none !important;
-  }
-  .table24{
-    display: none !important;
-  }
 
+.react-tabs__tab {
+  display: inline-block;
+  border-bottom: 1px solid white !important;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  color: white !important;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #212529 !important;
+  border: none !important;
+}
+.react-tabs__tab {
+  border-bottom: 1px solid white !important;
+  font-size: 2rem;
+}
+.h24 {
+  float: right !important;
+  color: white !important;
+  border: 1px solid white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  margin: 0rem 1rem;
+}
+.h25 {
+  float: right !important;
+  color: white !important;
+  border-color: white !important;
+  background-color: #212529 !important;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  margin: 0rem 1rem;
 }
 
+@media screen and (max-width: 992px) {
+  .table23 {
+    display: none !important;
+  }
+  .table24 {
+    display: none !important;
+  }
+}
