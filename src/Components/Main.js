@@ -14,17 +14,25 @@ export default function Main(props) {
         >
           Explore, collect, and sell NFTs
         </h1>
+        <div className="main-button" >
+          <button className="explore"  style={{
+            color: props.mode === "light" ? "black " : "white ",
+            // background: props.mode === "light" ? "black " : "white ",
+          }}>Explore</button>
+          <button className="sell"  style={{
+            color: props.mode === "light" ? "black " : "white ",
+            // backgroundColor: props.mode === "light" ? "black " : "white ",
+          }}>Sell</button>
+        </div>
 
-        <div>
+        {/* <div>
           <div
             class="input-group12 mb-3"
             style={{
               color: props.mode === "light" ? "black " : "white ",
             }}
           >
-            {/* <span class="input-group-text" id="basic-addon1">
-              @
-            </span> */}
+           
             <input
               type="text"
               className="form-control"
@@ -41,7 +49,7 @@ export default function Main(props) {
               color: props.mode === "light" ? "black " : "white ",
             }}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

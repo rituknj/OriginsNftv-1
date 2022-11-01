@@ -34,6 +34,35 @@ input::placeholder {
   display: block;
   margin: 0 auto;
 }
+.main-button{
+  text-align: center;
+}
+.explore{
+  width: 154.7px;
+  height: 56px;
+  left: 559.35px;
+  top: 224.5px;
+  /* background: #E6E6E6; */
+  border-radius: 15px;
+  font-family: 'Poppins';
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+}
+.sell{
+  width: 154.7px;
+  height: 56px;
+  left: 559.35px;
+  top: 224.5px;
+  /* background: #FEC200; */
+  border-radius: 15px;
+  font-family: 'Poppins';
+
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+margin-left: 30px;
+}
 @media screen and (max-width: 768px) {
   .heading-1 {
     font-size: 32px;

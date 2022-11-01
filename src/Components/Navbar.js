@@ -39,14 +39,14 @@ export default function Navbar(props) {
               )}
             </a>
 
-            <form className="input-1 d-flex" role="search">
-              {/* <input
-              className="form-control ms-2 ms-2"
-              type="search"
-              placeholder="Search items, collections and accounts"
-              aria-label="Search"
-            /> */}
-            </form>
+            {/* <form className="input-1 d-flex" role="search">
+              <input
+                className="form-control ms-2 ms-2"
+                type="search"
+                placeholder="Search items, collections and accounts"
+                aria-label="Search"
+              />
+            </form> */}
             <button
               className="navbar-toggler"
               type="button"
@@ -117,7 +117,53 @@ export default function Navbar(props) {
                     Create
                   </a>
                 </li>
-                <li className="nav-icons-2">
+                <div
+            class="input-group12 mb-3"
+            style={{
+              color: props.mode === "light" ? "black " : "white ",
+            }}
+          >
+           
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search Web3"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+              style={{
+                color: props.mode === "light" ? "black " : "white ",
+              }}
+            />
+          </div>
+                {/* <form className="input-1 d-flex" role="search">
+              <input
+                className="form-control ms-2 ms-2"
+                type="search"
+                placeholder="Search items, collections and accounts"
+                aria-label="Search"
+              />
+            </form> */}
+                {/* <li className="nav-icons-2">
+                  <div
+                    className={`form-check form-switch  text-${
+                      props.mode === "light" ? "dark" : "light"
+                    }`}
+                  >
+                    <span
+                      onClick={() => {
+                        setShow1(!show1);
+                      }}
+                    >
+                      <BsFillSunFill onClick={props.toggleMode} size={30} />
+                    </span>
+                  </div>
+                </li> */}
+              </ul>
+            </div>
+
+            <div>
+              <ul className="nav-icons navicon23">
+              <li className="nav-icons-2">
                   <div
                     className={`form-check form-switch  text-${
                       props.mode === "light" ? "dark" : "light"
@@ -132,11 +178,6 @@ export default function Navbar(props) {
                     </span>
                   </div>
                 </li>
-              </ul>
-            </div>
-
-            <div>
-              <ul className="nav-icons navicon23">
                 <li className="nav-icons-1">
                   <CgProfile
                     style={{
