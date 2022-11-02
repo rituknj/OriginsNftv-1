@@ -15,6 +15,16 @@
     rgba(71, 71, 72, 0.12) 135.77%
   );
 }
+.form-control1 {
+  width: 592px;
+  height: 56px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 2rem;
+}
+.form-control1::placeholder {
+  color: black !important;
+}
 input::placeholder {
   color: #fff !important;
 }
@@ -34,34 +44,34 @@ input::placeholder {
   display: block;
   margin: 0 auto;
 }
-.main-button{
+.main-button {
   text-align: center;
 }
-.explore{
+.explore {
   width: 154.7px;
   height: 56px;
   left: 559.35px;
   top: 224.5px;
   /* background: #E6E6E6; */
   border-radius: 15px;
-  font-family: 'Poppins';
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
-.sell{
+.sell {
   width: 154.7px;
   height: 56px;
   left: 559.35px;
   top: 224.5px;
   /* background: #FEC200; */
   border-radius: 15px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-margin-left: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 30px;
 }
 @media screen and (max-width: 768px) {
   .heading-1 {

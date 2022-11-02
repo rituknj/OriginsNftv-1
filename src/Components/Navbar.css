@@ -56,6 +56,14 @@
 button.navbar-toggler {
   background-color: #c7c7c7 !important;
 }
+.explore {
+  background-color: rgb(209, 209, 209);
+  border: none !important;
+}
+.sell {
+  background-color: #fec200;
+  border: none !important;
+}
 
 @media screen and (max-width: 992px) {
   .navicon23 {

@@ -26,16 +26,15 @@ function App() {
   return (
     <div className="App">
       <Navbar mode={mode} toggleMode={toggleMode} />
-      <Main mode={mode} toggleMode={toggleMode} />
 
-      <Trending mode={mode} toggleMode={toggleMode}/>
+      <Trending mode={mode} toggleMode={toggleMode} />
       {/* <Table /> */}
-      <Notable mode={mode} toggleMode={toggleMode}/>
-      <Avalanch mode={mode} toggleMode={toggleMode}/>
-      <Hot mode={mode} toggleMode={toggleMode}/>
+      <Notable mode={mode} toggleMode={toggleMode} />
+      <Avalanch mode={mode} toggleMode={toggleMode} />
+      <Hot mode={mode} toggleMode={toggleMode} />
       {/*       <Toyslider /> */}
-      <Browse mode={mode} toggleMode={toggleMode}/>
-      <Footer mode={mode} toggleMode={toggleMode}/>
+      <Browse mode={mode} toggleMode={toggleMode} />
+      <Footer mode={mode} toggleMode={toggleMode} />
     </div>
   );
 }
