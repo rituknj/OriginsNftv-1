@@ -187,7 +187,7 @@ function Footer(props) {
                   </li>
                 </ul>
               </div>
-              <div className="col-lg-2 col-md-3 col-sm-6 col-6">
+              <div className="col-lg-2 col-md-3 col-sm-6 col-6 profile-fo">
                 {" "}
                 <h5
                   className="list-heading"

@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 // import Toyslider from "./Components/Toyslider";
 import Table from "./Components/Table";
 import Hot from "./Components/Hot";
+import Nft from "./Components/Nft";
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -26,15 +27,16 @@ function App() {
   return (
     <div className="App">
       <Navbar mode={mode} toggleMode={toggleMode} />
-
+{/* 
       <Trending mode={mode} toggleMode={toggleMode} />
-      {/* <Table /> */}
+     
       <Notable mode={mode} toggleMode={toggleMode} />
       <Avalanch mode={mode} toggleMode={toggleMode} />
       <Hot mode={mode} toggleMode={toggleMode} />
-      {/*       <Toyslider /> */}
+     
       <Browse mode={mode} toggleMode={toggleMode} />
-      <Footer mode={mode} toggleMode={toggleMode} />
+      <Footer mode={mode} toggleMode={toggleMode} /> */}
+      <Nft />
     </div>
   );
 }

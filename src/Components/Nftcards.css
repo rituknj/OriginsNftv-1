@@ -1,0 +1,41 @@
+.vector-filter {
+  width: 122px;
+  height: 55px;
+  left: 50px;
+  top: 306.09px;
+  background: #f6f6f6;
+  border-radius: 15px;
+  font-size: 20px;
+  border: none;
+}
+.reload-button {
+  width: 50px;
+  height: 48px;
+border: none;
+  background: #f6f6f6;
+  border-radius: 15px;
+}
+.input-group1221 {
+  width: 500px;
+  height: 56px;
+
+  background: linear-gradient(
+    158.22deg,
+    rgba(188, 188, 188, 0.21) 29.5%,
+    rgba(71, 71, 72, 0.12) 135.77%
+  ) !important;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nft-select {
+  width: 200px;
+  height: 60px;
+  left: 1091.72px;
+  top: 306.09px;
+  background: #f6f6f6;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+}

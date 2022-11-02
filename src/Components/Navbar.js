@@ -259,7 +259,7 @@ export default function Navbar(props) {
               ""
             ) : (
               <div
-                class="input-group12 mb-3"
+                class="input-group122 mb-3"
                 style={{
                   color: props.mode === "light" ? "black " : "white ",
                 }}

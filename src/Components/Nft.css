@@ -1,0 +1,53 @@
+.explore-heading{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.filter-button {
+  width: 220px;
+  height: 55px;
+  font-size: 20px;
+  margin-left: 10px;
+  background: #f6f6f6;
+  border-radius: 15px;
+  border: none;
+}
+.filter-button1 {
+  width: 50px;
+  height: 55px;
+  font-size: 20px;
+  margin-left: 10px;
+  background: #f6f6f6;
+  border-radius: 15px;
+  border: none;
+}
+.btn22 {
+  width: 200px;
+  height: 55px;
+  background: #F6F6F6;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.tab-pane{
+display: flex !important;
+}
+.scroll-button{
+width: 92px;
+height: 55px;
+border: none;
+background: #F6F6F6;
+border-radius: 15px;
+border-bottom-left-radius: 10px !important;
+border-top-left-radius: 10px !important;
+margin-left: 11px !important;
+}
+.card-title{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.card-text{
+    font-size: 18px !important;
+    font-weight: 700;
+}
