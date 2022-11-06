@@ -15,9 +15,9 @@ import "./Nft.css";
 function TabsExample() {
   return (
     <div className="container-fluid">
-    <div>
+      <div>
         <h1 className="explore-heading">Explore</h1>
-    </div>
+      </div>
       <div>
         <ul className="nav nav-tabs" id="myTab" role="tablist">
           <li className="nav-item" role="presentation">
@@ -33,7 +33,6 @@ function TabsExample() {
             >
               NFTs
             </button>
-            
           </li>
           <li className="nav-item" role="presentation">
             <button
@@ -133,10 +132,10 @@ function TabsExample() {
                   <p className="card-text">Recordian Headset</p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item" style={{display:'grid'}}>
+                  <li className="list-group-item" style={{ display: "grid" }}>
                     <span>Price</span>0.548 ETH{" "}
                   </li>
-                  <li className="list-group-item" style={{display:'grid'}}>
+                  <li className="list-group-item" style={{ display: "grid" }}>
                     {" "}
                     <span>Highest Bid</span>No bids yet
                   </li>
@@ -156,10 +155,10 @@ function TabsExample() {
                   <p className="card-text">Recordian Headset</p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item" style={{display:'grid'}}>
+                  <li className="list-group-item" style={{ display: "grid" }}>
                     <span>Price</span>0.548 ETH{" "}
                   </li>
-                  <li className="list-group-item" style={{display:'grid'}}>
+                  <li className="list-group-item" style={{ display: "grid" }}>
                     {" "}
                     <span>Highest Bid</span>No bids yet
                   </li>
@@ -179,10 +178,10 @@ function TabsExample() {
                   <p className="card-text">Recordian Headset</p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item" style={{display:'grid'}}>
+                  <li className="list-group-item" style={{ display: "grid" }}>
                     <span>Price</span>0.548 ETH{" "}
                   </li>
-                  <li className="list-group-item" style={{display:'grid'}}>
+                  <li className="list-group-item" style={{ display: "grid" }}>
                     {" "}
                     <span>Highest Bid</span>No bids yet
                   </li>
@@ -202,10 +201,10 @@ function TabsExample() {
                   <p className="card-text">Recordian Headset</p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item" style={{display:'grid'}}>
+                  <li className="list-group-item" style={{ display: "grid" }}>
                     <span>Price</span>0.548 ETH{" "}
                   </li>
-                  <li className="list-group-item" style={{display:'grid'}}>
+                  <li className="list-group-item" style={{ display: "grid" }}>
                     {" "}
                     <span>Highest Bid</span>No bids yet
                   </li>
@@ -214,7 +213,7 @@ function TabsExample() {
               </div>
             </div>
           </div>
-          
+
           <div
             className="tab-pane fade"
             id="profile-tab-pane"

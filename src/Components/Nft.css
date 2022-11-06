@@ -1,7 +1,7 @@
-.explore-heading{
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 58px;
+.explore-heading {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 58px;
 }
 
 .filter-button {
@@ -25,29 +25,44 @@
 .btn22 {
   width: 200px;
   height: 55px;
-  background: #F6F6F6;
+  background: #f6f6f6;
   border: none;
   border-radius: 15px;
   font-size: 20px;
 }
-.tab-pane{
-display: flex !important;
+.tab-pane {
+  display: flex !important;
 }
-.scroll-button{
-width: 92px;
-height: 55px;
-border: none;
-background: #F6F6F6;
-border-radius: 15px;
-border-bottom-left-radius: 10px !important;
-border-top-left-radius: 10px !important;
-margin-left: 11px !important;
+.scroll-button {
+  width: 92px;
+  height: 55px;
+  border: none;
+  background: #f6f6f6;
+  border-radius: 15px;
+  border-bottom-left-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+  margin-left: 11px !important;
 }
-.card-title{
-    font-size: 16px !important;
-    font-weight: 600 !important;
+.card-title {
+  font-size: 16px !important;
+  font-weight: 600 !important;
 }
-.card-text{
-    font-size: 18px !important;
-    font-weight: 700;
+.card-text {
+  font-size: 18px !important;
+  font-weight: 700;
+}
+button#home-tab {
+  font-size: 16px !important;
+  color: #222222;
+  font-weight: 900;
+}
+button#profile-tab {
+  font-size: 16px;
+  color: grey;
+  font-weight: 900;
+}
+button#contact-tab {
+  font-size: 16px;
+  color: grey;
+  font-weight: 900;
 }
