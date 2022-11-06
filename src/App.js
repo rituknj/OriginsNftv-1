@@ -13,6 +13,14 @@ import Table from "./Components/Table";
 import Hot from "./Components/Hot";
 import Nft from "./Components/Nft";
 
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 function App() {
   const [mode, setMode] = useState("dark");
   const toggleMode = () => {
@@ -27,16 +35,50 @@ function App() {
   return (
     <div className="App">
       <Navbar mode={mode} toggleMode={toggleMode} />
-{/* 
+
       <Trending mode={mode} toggleMode={toggleMode} />
-     
+
       <Notable mode={mode} toggleMode={toggleMode} />
       <Avalanch mode={mode} toggleMode={toggleMode} />
       <Hot mode={mode} toggleMode={toggleMode} />
-     
+
       <Browse mode={mode} toggleMode={toggleMode} />
-      <Footer mode={mode} toggleMode={toggleMode} /> */}
+      <Footer mode={mode} toggleMode={toggleMode} />
       <Nft />
+      
+      <Router>
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/users">Users</Link>
+            </li>
+          </ul>
+        </nav>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/users">
+            <Users />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+
+
     </div>
   );
 }
