@@ -13,12 +13,16 @@ import Image2 from "../Components/Images/hotimg2.png";
 import Smallimg1 from "../Components/Images/new-img1.png";
 import "./Nft1.css";
 import Searchpanal from "./Searchpanal";
+import MainNav from "./MainNav";
 
 export default function Nft1() {
   return (
     <div>
+      <MainNav />
       <div className="container-fluid background-up">
-        <h1 style={{ fontSize: "80px", fontWeight: "900", color:'#fff' }}>Explore</h1>
+        <h1 style={{ fontSize: "80px", fontWeight: "900", color: "#fff" }}>
+          Explore
+        </h1>
 
         <Tabs>
           <TabList>
@@ -28,7 +32,7 @@ export default function Nft1() {
           </TabList>
 
           <TabPanel>
-          <Searchpanal/>
+            <Searchpanal />
             <div>
               <div className="row">
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
@@ -149,157 +153,145 @@ export default function Nft1() {
           {/*-------------------------------------------------- COLLECTIONS ------------------------------------------------------------------------ */}
 
           <TabPanel>
-          <Searchpanal/>
+            <Searchpanal />
             <div>
               <div className="row">
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                <SwiperSlide>
+                  <SwiperSlide>
                     {" "}
                     <Card style={{ width: "30rem" }}>
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
-                      <Card.Title className="card-body12">
-                  <span>
-                    {" "}
-                    <img
-                      src={Smallimg1}
-                      alt=""
-                      style={{ display: "inline-flex" }}
-                      className="card-image1"
-                    />{" "}
-                  </span>
-                  <span className="text32">Hot Cheetos </span>
-                  <span className="tick-icons">
-                  
-                   
-                  </span>
-                </Card.Title>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={Smallimg1}
+                              alt=""
+                              style={{ display: "inline-flex" }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          <span className="text32">Hot Cheetos </span>
+                          <span className="tick-icons"></span>
+                        </Card.Title>
                         <ul className="card-section">
-                      <div className="row">
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                          <span className="card-he">All Time Volume</span>
-                          <p className="card-se">44.6K ETH</p>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                          <span className="card-he">Floor Price</span>
-                          <p className="card-se">2.76 ETH</p>
-                        </div>
-                      </div>
-                    </ul>
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="card-he">All Time Volume</span>
+                              <p className="card-se">44.6K ETH</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="card-he">Floor Price</span>
+                              <p className="card-se">2.76 ETH</p>
+                            </div>
+                          </div>
+                        </ul>
                       </Card.Body>
                     </Card>
                   </SwiperSlide>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                <SwiperSlide>
+                  <SwiperSlide>
                     {" "}
                     <Card style={{ width: "30rem" }}>
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
-                      <Card.Title className="card-body12">
-                  <span>
-                    {" "}
-                    <img
-                      src={Smallimg1}
-                      alt=""
-                      style={{ display: "inline-flex" }}
-                      className="card-image1"
-                    />{" "}
-                  </span>
-                  <span className="text32">Hot Cheetos </span>
-                  <span className="tick-icons">
-                  
-                   
-                  </span>
-                </Card.Title>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={Smallimg1}
+                              alt=""
+                              style={{ display: "inline-flex" }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          <span className="text32">Hot Cheetos </span>
+                          <span className="tick-icons"></span>
+                        </Card.Title>
                         <ul className="card-section">
-                      <div className="row">
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                          <span className="card-he">All Time Volume</span>
-                          <p className="card-se">44.6K ETH</p>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                          <span className="card-he">Floor Price</span>
-                          <p className="card-se">2.76 ETH</p>
-                        </div>
-                      </div>
-                    </ul>
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="card-he">All Time Volume</span>
+                              <p className="card-se">44.6K ETH</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="card-he">Floor Price</span>
+                              <p className="card-se">2.76 ETH</p>
+                            </div>
+                          </div>
+                        </ul>
                       </Card.Body>
                     </Card>
                   </SwiperSlide>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                <SwiperSlide>
+                  <SwiperSlide>
                     {" "}
                     <Card style={{ width: "30rem" }}>
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
-                      <Card.Title className="card-body12">
-                  <span>
-                    {" "}
-                    <img
-                      src={Smallimg1}
-                      alt=""
-                      style={{ display: "inline-flex" }}
-                      className="card-image1"
-                    />{" "}
-                  </span>
-                  <span className="text32">Hot Cheetos </span>
-                  <span className="tick-icons">
-                  
-                   
-                  </span>
-                </Card.Title>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={Smallimg1}
+                              alt=""
+                              style={{ display: "inline-flex" }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          <span className="text32">Hot Cheetos </span>
+                          <span className="tick-icons"></span>
+                        </Card.Title>
                         <ul className="card-section">
-                      <div className="row">
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                          <span className="card-he">All Time Volume</span>
-                          <p className="card-se">44.6K ETH</p>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                          <span className="card-he">Floor Price</span>
-                          <p className="card-se">2.76 ETH</p>
-                        </div>
-                      </div>
-                    </ul>
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="card-he">All Time Volume</span>
+                              <p className="card-se">44.6K ETH</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="card-he">Floor Price</span>
+                              <p className="card-se">2.76 ETH</p>
+                            </div>
+                          </div>
+                        </ul>
                       </Card.Body>
                     </Card>
                   </SwiperSlide>
                 </div>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                <SwiperSlide>
+                  <SwiperSlide>
                     {" "}
                     <Card style={{ width: "30rem" }}>
                       <Card.Img variant="top" src={Cardimage12} />
                       <Card.Body>
-                      <Card.Title className="card-body12">
-                  <span>
-                    {" "}
-                    <img
-                      src={Smallimg1}
-                      alt=""
-                      style={{ display: "inline-flex" }}
-                      className="card-image1"
-                    />{" "}
-                  </span>
-                  <span className="text32">Hot Cheetos </span>
-                  <span className="tick-icons">
-                  
-                   
-                  </span>
-                </Card.Title>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={Smallimg1}
+                              alt=""
+                              style={{ display: "inline-flex" }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          <span className="text32">Hot Cheetos </span>
+                          <span className="tick-icons"></span>
+                        </Card.Title>
                         <ul className="card-section">
-                      <div className="row">
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                          <span className="card-he">All Time Volume</span>
-                          <p className="card-se">44.6K ETH</p>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
-                          <span className="card-he">Floor Price</span>
-                          <p className="card-se">2.76 ETH</p>
-                        </div>
-                      </div>
-                    </ul>
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="card-he">All Time Volume</span>
+                              <p className="card-se">44.6K ETH</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="card-he">Floor Price</span>
+                              <p className="card-se">2.76 ETH</p>
+                            </div>
+                          </div>
+                        </ul>
                       </Card.Body>
                     </Card>
                   </SwiperSlide>
@@ -311,7 +303,7 @@ export default function Nft1() {
           {/*---------------------------------------------- USERS----------------------------------------------------------------------------- */}
 
           <TabPanel>
-          <Searchpanal/>
+            <Searchpanal />
             <div>
               <div className="row">
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">

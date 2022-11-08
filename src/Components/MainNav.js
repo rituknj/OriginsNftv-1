@@ -12,7 +12,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsFillSunFill } from "react-icons/bs";
 import "./Navbar.css";
 
-export default function Navbar(props) {
+export default function MainNav(props) {
   const [show1, setShow1] = useState(false);
   // const [mode, setMode] = useState(false);
   return (
@@ -228,78 +228,6 @@ export default function Navbar(props) {
               </div>
             </div>
           </nav>
-        </div>
-      </div>
-      {/*       ///////////////////////////////////////////////////////////////////////////////////////////////// */}
-
-      <div
-        style={{
-          color: props.mode === "light" ? "black " : "white ",
-          backgroundColor: props.mode === "light" ? "white " : "#212529 ",
-        }}
-      >
-        <div className="container-fluid background-main py-5 px-5">
-          <div></div>
-          <h1
-            className="heading-1"
-            style={{
-              color: props.mode === "light" ? "black " : "white ",
-            }}
-          >
-            Explore, collect, and sell NFTs
-          </h1>
-          {!show1 ? (
-            ""
-          ) : (
-            <div className="main-button">
-              <button
-                className="explore"
-                style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                  // background: props.mode === "light" ? "black " : "white ",
-                }}
-              >
-                Explore
-              </button>
-              <button
-                className="sell"
-                style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                  // backgroundColor: props.mode === "light" ? "black " : "white ",
-                }}
-              >
-                Sell
-              </button>
-            </div>
-          )}
-          <div>
-            {/* {show1 ? (
-              ""
-            ) : (
-              <div
-                class="input-group122 mb-3"
-                style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                }}
-              >
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Search Web3"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
-                  style={{
-                    color: props.mode === "light" ? "black " : "white ",
-                  }}
-                />
-              </div>
-            )} */}
-            <Slider
-              style={{
-                color: props.mode === "light" ? "black " : "white ",
-              }}
-            />
-          </div>
         </div>
       </div>
     </>
