@@ -18,7 +18,7 @@ export default function Navbar(props) {
   return (
     <>
       <div className={`Navbar  navbar-${props.mode} bg-${props.mode}`}>
-        <div style={{background:" rgba(166, 166, 166, 0.5)"}}>
+        <div style={{ background: " rgba(166, 166, 166, 0.5)" }}>
           <nav className="navbar navbar-expand-lg bg-transparent">
             <div className="container-fluid px-5">
               <a className="navbar-brand" href="/">
@@ -83,23 +83,25 @@ export default function Navbar(props) {
                     ORIGINS NFT
                   </a>
                 </li> */}
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      aria-current="page"
-                      href="/"
-                      style={{
-                        color: props.mode === "light" ? "black " : "white ",
-                      }}
-                    >
-                      Explore
-                    </a>
-                    <div class="dropdown-content">
-    <a href="/">Link 1</a>
-    <a href="/">Link 2</a>
-    <a href="/">Link 3</a>
-  </div>
-                  </li>
+                  <div className="dropdown">
+                    <li className="nav-item">
+                      <a
+                        className="nav-link active"
+                        aria-current="page"
+                        href="/"
+                        style={{
+                          color: props.mode === "light" ? "black " : "white ",
+                        }}
+                      >
+                        Explore
+                      </a>
+                      <div class="dropdown-content">
+                        <a href="/">Link 1</a>
+                        <a href="/">Link 2</a>
+                        <a href="/">Link 3</a>
+                      </div>
+                    </li>
+                  </div>
                   <li className="nav-item">
                     <a
                       className="nav-link active"
