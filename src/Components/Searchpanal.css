@@ -1,0 +1,52 @@
+.filter-button{
+width: 119.77px ;
+height: 48px ;
+/* left: 50px ;
+top: 306.09px; */
+background: rgba(246, 246, 246, 0.5) ;
+border-radius: 15px ;
+border: none;
+font-size: 16px;
+    font-weight: 500;
+    color: #6A6A6A;
+}
+.refresh-button{
+    width: 46.74px;
+height: 48px;
+left: 177.03px;
+top: 306.09px;
+background: rgba(246, 246, 246, 0.5);
+border-radius: 15px;
+border: none;
+}
+.form-control110{
+width: 100%;
+height: 48px;
+left: 231.81px;
+top: 306.09px;
+background: rgba(246, 246, 246, 0.5);
+border-radius: 15px;
+border: none;
+padding-left: 15px;
+}
+.form-control110::placeholder{
+    color: #6A6A6A !important;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.dropdown-toggle{
+width: 197.38px !important;
+height: 48px;
+left: 1091.72px;
+top: 306.09px;
+background: rgba(246, 246, 246, 0.5) !important;
+border-radius: 15px !important;
+border: none !important;
+color: #434446 !important;
+font-size: 16px !important;
+font-weight: 500 !important;
+}
+.dropdown-toggle::after{
+    color: #434446;
+}

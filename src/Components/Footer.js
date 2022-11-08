@@ -37,7 +37,7 @@ function Footer(props) {
               <div className="input-group1 mb-3">
                 <input
                   type="email"
-                  className="form-control"
+                  className="form-control22"
                   placeholder="Enter email address..."
                   aria-label="Recipient's username"
                   aria-describedby="button-addon2"
@@ -49,9 +49,7 @@ function Footer(props) {
                   className="signup"
                   type="button"
                   id="button-addon2"
-                  style={{
-                    color: props.mode === "light" ? "black " : "white ",
-                  }}
+                  
                 >
                   Subscribe
                 </button>

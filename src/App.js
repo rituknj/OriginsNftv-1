@@ -1,5 +1,6 @@
 import "./App.css";
 // import Footer from "./Components/Footer";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
@@ -25,7 +26,9 @@ function App() {
     }
   };
   return (
-    <div className="App">
+    <div className="app">
+    {/* <Main/> */}
+    
       <Navbar mode={mode} toggleMode={toggleMode} />
 
       <Trending mode={mode} toggleMode={toggleMode} />
@@ -36,8 +39,15 @@ function App() {
 
       <Browse mode={mode} toggleMode={toggleMode} />
       <Footer mode={mode} toggleMode={toggleMode} />
-      <Nft1 />
-    </div>
+      <Nft1/>
+
+      {/* <BrowserRouter>
+        <Switch>
+          <Route  path="/" component={Main} />
+          <Route  path="/nft" component={Nft1} />
+          </Switch>
+          </BrowserRouter> */}
+          </div>
   );
 }
 

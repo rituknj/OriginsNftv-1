@@ -1,0 +1,49 @@
+.card-section {
+  background: #f6f6f6;
+  border-radius: 7px;
+  margin: 0.5rem 0.5rem;
+}
+.background-up{
+  background-image: url(./Images/explore-head-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card-section1 {
+  padding-left: 0rem;
+}
+.card-he {
+  font-size: 10px;
+  color: #6a6a6a;
+  font-weight: 400;
+  line-height: 15px;
+}
+.card-se {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  line-height: 15px;
+}
+.card-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.card-text {
+  font-size: 17px;
+  font-weight: 700;
+}
+.follow-button {
+  width: 78.9px;
+  height: 35.04px;
+  left: 279.77px;
+  top: 565.18px;
+  color: #fff;
+  background: #000000;
+  border-radius: 10px;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.user-na {
+  font-size: 14px;
+  font-weight: 600;
+}

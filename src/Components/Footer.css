@@ -14,19 +14,22 @@
 } */
 .signup {
   font-size: 1.2rem;
-  padding: 10px;
-  font-weight: 600;
+  /* padding: 10px; */
+  height: 33px;
+    width: 127px;
+  font-weight: 700;
   color: #000 !important;
-  border-color: white !important;
+  background:  #FEC200 !important;
+  border: none;
   border-radius: 15px;
-  border-top-left-radius: 15px !important;
-  border-bottom-left-radius: 15px !important;
+  /* border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important; */
 }
 /* .signup:hover {
   background-color: #4c91d6 !important;
 } */
-.form-control {
-  padding: 10px !important;
+.form-control22 {
+  padding: 8px !important;
   border-radius: 10px !important;
   background-color: #6a6769 !important;
   border: none !important;
@@ -34,6 +37,7 @@
   font-size: 15px !important;
   font-weight: 600;
   margin-right: 15px;
+  width: 100%;
 }
 .twitter-icons {
   background: #fff;

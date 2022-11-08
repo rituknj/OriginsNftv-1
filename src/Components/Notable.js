@@ -99,7 +99,7 @@ export default function App(props) {
                   <span className="text32">Somnium Space VR </span>
                   <span className="tick-icons">
                   
-                    {/* <BsFillPatchCheckFill className="tick" /> */}
+                   
                   </span>
                 </Card.Title>
                 {/* <Card.Text>

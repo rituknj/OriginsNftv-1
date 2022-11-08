@@ -8,13 +8,17 @@ import Cardimage12 from "./Images/export-collection-card.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import small2 from "../Components/Images/smalllogo2.png";
 import Card from "react-bootstrap/Card";
+import Checkicons from "./Images/check-icon.png";
 import Image2 from "../Components/Images/hotimg2.png";
+import Smallimg1 from "../Components/Images/new-img1.png";
+import "./Nft1.css";
+import Searchpanal from "./Searchpanal";
 
 export default function Nft1() {
   return (
     <div>
-      <div className="container-fluid">
-        <h1 style={{ fontSize: "80px", fontWeight: "900" }}>Explore</h1>
+      <div className="container-fluid background-up">
+        <h1 style={{ fontSize: "80px", fontWeight: "900", color:'#fff' }}>Explore</h1>
 
         <Tabs>
           <TabList>
@@ -24,471 +28,437 @@ export default function Nft1() {
           </TabList>
 
           <TabPanel>
-            {/* <h2>Any content 1</h2> */}
+          <Searchpanal/>
             <div>
               <div className="row">
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
+                  <div className="card" style={{ width: "100%" }}>
                     <img
                       className="card-img-top"
                       src={Cardimage}
                       alt="Card image cap"
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
+                      <h5 className="card-title">
+                        {" "}
+                        Red Angrybol <img src={Checkicons} alt="" />
+                      </h5>
                       <p className="card-text">Recordian Headset</p>
                     </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                      {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
-                    <img
-                      className="card-img-top"
-                      src={Cardimage1}
-                      alt="Card image cap"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
-                      <p className="card-text">Recordian Headset</p>
-                    </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                      {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
-                    <img
-                      className="card-img-top"
-                      src={Cardimage2}
-                      alt="Card image cap"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
-                      <p className="card-text">Recordian Headset</p>
-                    </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                      {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
-                    <img
-                      className="card-img-top"
-                      src={Cardimage3}
-                      alt="Card image cap"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
-                      <p className="card-text">Recordian Headset</p>
-                    </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                      {/* <li className="list-group-item">Vestibulum at eros</li> */}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </TabPanel>
-          <TabPanel>
-            {/* <h2>Any content 2</h2> */}
-            <div>
-              <div className="row">
-                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
-                    <img
-                      className="card-img-top"
-                      src={Cardimage12}
-                      alt="Card image cap"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Hot Cheetos</h5>
-                    </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>All Time Volume</span>44.6K ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Floor Price</span>2.76 ETH
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
-                    <img
-                      className="card-img-top"
-                      src={Cardimage12}
-                      alt="Card image cap"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Hot Cheetos</h5>
-                    </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
-                    <img
-                      className="card-img-top"
-                      src={Cardimage12}
-                      alt="Card image cap"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
-                      <p className="card-text">Recordian Headset</p>
-                    </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
-                    <img
-                      className="card-img-top"
-                      src={Cardimage12}
-                      alt="Card image cap"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
-                      <p className="card-text">Recordian Headset</p>
-                    </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </TabPanel>
-          <TabPanel>
-            {/* <h2>Any content 3</h2> */}
 
-            <div>
-              <div className="row">
-                {/* <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
-                    <img
-                      className="card-img-top"
-                      src={Cardimage}
-                      alt="Card image cap"
-                    />
-                    <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
-                      <p className="card-text">Recordian Headset</p>
-                    </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                      
+                    <ul className="card-section">
+                      <div className="row">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Price</span>
+                          <p className="card-se">0.548 ETH</p>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Highest Bid</span>
+                          <p className="card-se">No bids yet</p>
+                        </div>
+                      </div>
                     </ul>
                   </div>
-                </div> */}
-                {/* <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                  <div className="card" style={{ width: "100%" }}>
                     <img
                       className="card-img-top"
                       src={Cardimage1}
                       alt="Card image cap"
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
+                      <h5 className="card-title">
+                        Red Angrybol <img src={Checkicons} alt="" />
+                      </h5>
                       <p className="card-text">Recordian Headset</p>
                     </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                      
+                    <ul className="card-section">
+                      <div className="row">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Price</span>
+                          <p className="card-se">0.548 ETH</p>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Highest Bid</span>
+                          <p className="card-se">No bids yet</p>
+                        </div>
+                      </div>
                     </ul>
                   </div>
-                </div> */}
-                {/* <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                  <div className="card" style={{ width: "100%" }}>
                     <img
                       className="card-img-top"
                       src={Cardimage2}
                       alt="Card image cap"
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
+                      <h5 className="card-title">
+                        Red Angrybol
+                        <img src={Checkicons} alt="" />{" "}
+                      </h5>
                       <p className="card-text">Recordian Headset</p>
                     </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                      
+                    <ul className="card-section">
+                      <div className="row">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Price</span>
+                          <p className="card-se">0.548 ETH</p>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Highest Bid</span>
+                          <p className="card-se">No bids yet</p>
+                        </div>
+                      </div>
                     </ul>
                   </div>
-                </div> */}
-                {/* <div className="col-lg-3 col-md-3 col-sm-6 col-12">
-                  <div className="card" style={{ width: "30rem" }}>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                  <div className="card" style={{ width: "100%" }}>
                     <img
                       className="card-img-top"
                       src={Cardimage3}
                       alt="Card image cap"
                     />
                     <div className="card-body">
-                      <h5 className="card-title">Red Angrybol</h5>
+                      <h5 className="card-title">
+                        Red Angrybol <img src={Checkicons} alt="" />
+                      </h5>
                       <p className="card-text">Recordian Headset</p>
                     </div>
-                    <ul className="list-group list-group-flush">
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        <span>Price</span>0.548 ETH{" "}
-                      </li>
-                      <li
-                        className="list-group-item"
-                        style={{ display: "grid" }}
-                      >
-                        {" "}
-                        <span>Highest Bid</span>No bids yet
-                      </li>
-                      
+                    <ul className="card-section">
+                      <div className="row">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Price</span>
+                          <p className="card-se">0.548 ETH</p>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Highest Bid</span>
+                          <p className="card-se">No bids yet</p>
+                        </div>
+                      </div>
                     </ul>
                   </div>
-                </div> */}
+                </div>
+              </div>
+            </div>
+          </TabPanel>
+
+          {/*-------------------------------------------------- COLLECTIONS ------------------------------------------------------------------------ */}
+
+          <TabPanel>
+          <Searchpanal/>
+            <div>
+              <div className="row">
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                 <SwiperSlide>
-            {" "}
-            <Card style={{ width: "35rem" }}>
-              <Card.Img variant="top" src={Image2} />
-              <Card.Body>
-                <Card.Title className="card-body12">
+                    {" "}
+                    <Card style={{ width: "30rem" }}>
+                      <Card.Img variant="top" src={Cardimage12} />
+                      <Card.Body>
+                      <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src={small2}
+                      src={Smallimg1}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
                     />{" "}
                   </span>
-                  {/* <span className="text32">Mohammad Ali</span> */}
+                  <span className="text32">Hot Cheetos </span>
+                  <span className="tick-icons">
+                  
+                   
+                  </span>
                 </Card.Title>
-                {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                {/* <Button variant="primary">Go somewhere</Button> */}
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <Card style={{ width: "35rem" }}>
-              <Card.Img variant="top" src={Image2} />
-              <Card.Body>
-                <Card.Title className="card-body12">
+                        <ul className="card-section">
+                      <div className="row">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">All Time Volume</span>
+                          <p className="card-se">44.6K ETH</p>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Floor Price</span>
+                          <p className="card-se">2.76 ETH</p>
+                        </div>
+                      </div>
+                    </ul>
+                      </Card.Body>
+                    </Card>
+                  </SwiperSlide>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                <SwiperSlide>
+                    {" "}
+                    <Card style={{ width: "30rem" }}>
+                      <Card.Img variant="top" src={Cardimage12} />
+                      <Card.Body>
+                      <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src={small2}
+                      src={Smallimg1}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
                     />{" "}
                   </span>
-                  {/* <span className="text32">Mohammad Ali</span> */}
+                  <span className="text32">Hot Cheetos </span>
+                  <span className="tick-icons">
+                  
+                   
+                  </span>
                 </Card.Title>
-                {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                {/* <Button variant="primary">Go somewhere</Button> */}
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <Card style={{ width: "35rem" }}>
-              <Card.Img variant="top" src={Image2} />
-              <Card.Body>
-                <Card.Title className="card-body12">
+                        <ul className="card-section">
+                      <div className="row">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">All Time Volume</span>
+                          <p className="card-se">44.6K ETH</p>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Floor Price</span>
+                          <p className="card-se">2.76 ETH</p>
+                        </div>
+                      </div>
+                    </ul>
+                      </Card.Body>
+                    </Card>
+                  </SwiperSlide>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                <SwiperSlide>
+                    {" "}
+                    <Card style={{ width: "30rem" }}>
+                      <Card.Img variant="top" src={Cardimage12} />
+                      <Card.Body>
+                      <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src={small2}
+                      src={Smallimg1}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
                     />{" "}
                   </span>
-                  {/* <span className="text32">Mohammad Ali</span> */}
+                  <span className="text32">Hot Cheetos </span>
+                  <span className="tick-icons">
+                  
+                   
+                  </span>
                 </Card.Title>
-                {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                {/* <Button variant="primary">Go somewhere</Button> */}
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            {" "}
-            <Card style={{ width: "35rem" }}>
-              <Card.Img variant="top" src={Image2} />
-              <Card.Body>
-                <Card.Title className="card-body12">
+                        <ul className="card-section">
+                      <div className="row">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">All Time Volume</span>
+                          <p className="card-se">44.6K ETH</p>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Floor Price</span>
+                          <p className="card-se">2.76 ETH</p>
+                        </div>
+                      </div>
+                    </ul>
+                      </Card.Body>
+                    </Card>
+                  </SwiperSlide>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                <SwiperSlide>
+                    {" "}
+                    <Card style={{ width: "30rem" }}>
+                      <Card.Img variant="top" src={Cardimage12} />
+                      <Card.Body>
+                      <Card.Title className="card-body12">
                   <span>
                     {" "}
                     <img
-                      src={small2}
+                      src={Smallimg1}
                       alt=""
                       style={{ display: "inline-flex" }}
                       className="card-image1"
                     />{" "}
                   </span>
-                  {/* <span className="text32">Mohammad Ali</span> */}
+                  <span className="text32">Hot Cheetos </span>
+                  <span className="tick-icons">
+                  
+                   
+                  </span>
                 </Card.Title>
-                {/* <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text> */}
-                {/* <Button variant="primary">Go somewhere</Button> */}
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
+                        <ul className="card-section">
+                      <div className="row">
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">All Time Volume</span>
+                          <p className="card-se">44.6K ETH</p>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <span className="card-he">Floor Price</span>
+                          <p className="card-se">2.76 ETH</p>
+                        </div>
+                      </div>
+                    </ul>
+                      </Card.Body>
+                    </Card>
+                  </SwiperSlide>
+                </div>
               </div>
-              <div>
+            </div>
+          </TabPanel>
 
-                
+          {/*---------------------------------------------- USERS----------------------------------------------------------------------------- */}
+
+          <TabPanel>
+          <Searchpanal/>
+            <div>
+              <div className="row">
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                  <SwiperSlide>
+                    {" "}
+                    <Card style={{ width: "30rem" }}>
+                      <Card.Img variant="top" src={Image2} />
+                      <Card.Body>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={small2}
+                              alt=""
+                              style={{
+                                display: "inline-flex",
+                                borderRadius: "100%",
+                              }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          {/* <span className="text32">Mohammad Ali</span> */}
+                        </Card.Title>
+                        <ul className="card-section1">
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="user-na">Hot Cheetos </span>
+                              <p className="user-na">1.76K Followers</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <button className="follow-button">Follow</button>
+                            </div>
+                          </div>
+                        </ul>
+                      </Card.Body>
+                    </Card>
+                  </SwiperSlide>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                  <SwiperSlide>
+                    {" "}
+                    <Card style={{ width: "30rem" }}>
+                      <Card.Img variant="top" src={Image2} />
+                      <Card.Body>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={small2}
+                              alt=""
+                              style={{
+                                display: "inline-flex",
+                                borderRadius: "100%",
+                              }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          {/* <span className="text32">Mohammad Ali</span> */}
+                        </Card.Title>
+                        <ul className="card-section1">
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="user-na">Hot Cheetos </span>
+                              <p className="user-na">1.76K Followers</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <button className="follow-button">Follow</button>
+                            </div>
+                          </div>
+                        </ul>
+                      </Card.Body>
+                    </Card>
+                  </SwiperSlide>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                  <SwiperSlide>
+                    {" "}
+                    <Card style={{ width: "30rem" }}>
+                      <Card.Img variant="top" src={Image2} />
+                      <Card.Body>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={small2}
+                              alt=""
+                              style={{
+                                display: "inline-flex",
+                                borderRadius: "100%",
+                              }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                          {/* <span className="text32">Mohammad Ali</span> */}
+                        </Card.Title>
+                        <ul className="card-section1">
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="user-na">Hot Cheetos </span>
+                              <p className="user-na">1.76K Followers</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <button className="follow-button">Follow</button>
+                            </div>
+                          </div>
+                        </ul>
+                      </Card.Body>
+                    </Card>
+                  </SwiperSlide>
+                </div>
+                <div className="col-lg-3 col-md-3 col-sm-6 col-12">
+                  <SwiperSlide>
+                    {" "}
+                    <Card style={{ width: "30rem" }}>
+                      <Card.Img variant="top" src={Image2} />
+                      <Card.Body>
+                        <Card.Title className="card-body12">
+                          <span>
+                            {" "}
+                            <img
+                              src={small2}
+                              alt=""
+                              style={{
+                                display: "inline-flex",
+                                borderRadius: "100%",
+                              }}
+                              className="card-image1"
+                            />{" "}
+                          </span>
+                        </Card.Title>
+                        <ul className="card-section1">
+                          <div className="row">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <span className="user-na">Hot Cheetos </span>
+                              <p className="user-na">1.76K Followers</p>
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <button className="follow-button">Follow</button>
+                            </div>
+                          </div>
+                        </ul>
+                      </Card.Body>
+                    </Card>
+                  </SwiperSlide>
+                </div>
               </div>
+              <div></div>
             </div>
           </TabPanel>
         </Tabs>

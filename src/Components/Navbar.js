@@ -18,7 +18,7 @@ export default function Navbar(props) {
   return (
     <>
       <div className={`Navbar  navbar-${props.mode} bg-${props.mode}`}>
-        <div>
+        <div style={{background:" rgba(166, 166, 166, 0.5)"}}>
           <nav className="navbar navbar-expand-lg bg-transparent">
             <div className="container-fluid px-5">
               <a className="navbar-brand" href="/">
@@ -68,6 +68,16 @@ export default function Navbar(props) {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                  <input
+                    type="text"
+                    className="form-control11"
+                    placeholder="Search items, collection, accounts"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                    // style={{
+                    //   color: props.mode === "light" ? "black " : "white ",
+                    // }}
+                  />
                   {/* <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="/">
                     ORIGINS NFT
@@ -84,6 +94,11 @@ export default function Navbar(props) {
                     >
                       Explore
                     </a>
+                    <div class="dropdown-content">
+    <a href="/">Link 1</a>
+    <a href="/">Link 2</a>
+    <a href="/">Link 3</a>
+  </div>
                   </li>
                   <li className="nav-item">
                     <a
@@ -122,7 +137,7 @@ export default function Navbar(props) {
                     </a>
                   </li>
 
-                  {!show1 ? (
+                  {/* {!show1 ? (
                     ""
                   ) : (
                     <div
@@ -142,7 +157,7 @@ export default function Navbar(props) {
                         }}
                       />
                     </div>
-                  )}
+                  )} */}
                   {/* <form className="input-1 d-flex" role="search">
               <input
                 className="form-control ms-2 ms-2"
@@ -221,7 +236,8 @@ export default function Navbar(props) {
           backgroundColor: props.mode === "light" ? "white " : "#212529 ",
         }}
       >
-        <div className="container-fluid  py-5 px-5">
+        <div className="container-fluid background-main py-5 px-5">
+          <div></div>
           <h1
             className="heading-1"
             style={{
@@ -255,7 +271,7 @@ export default function Navbar(props) {
             </div>
           )}
           <div>
-            {show1 ? (
+            {/* {show1 ? (
               ""
             ) : (
               <div
@@ -275,7 +291,7 @@ export default function Navbar(props) {
                   }}
                 />
               </div>
-            )}
+            )} */}
             <Slider
               style={{
                 color: props.mode === "light" ? "black " : "white ",
