@@ -3,10 +3,20 @@
   border-radius: 7px;
   margin: 0.5rem 0.5rem;
 }
-.background-up{
+.background-up {
   background-image: url(./Images/explore-head-img.png);
   background-repeat: no-repeat;
   background-size: contain;
+}
+.explore-header {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  font-size: 80px;
+  font-weight: 900;
+  color: #fff;
+}
+ul.react-tabs__tab-list {
+  border-bottom: none !important;
 }
 .card-section1 {
   padding-left: 0rem;

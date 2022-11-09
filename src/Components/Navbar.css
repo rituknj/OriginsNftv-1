@@ -5,6 +5,7 @@
   background-image: url(./Images/imgae-background.png);
   background-repeat: no-repeat;
   background-size: contain;
+  width: 100%;
 }
 .form-control11 {
   width: 592px;
@@ -67,6 +68,11 @@
   -webkit-box-pack: justify;
   justify-content: space-between;
 }
+button.btn.nav-link.active {
+  border: none;
+  color: #fff;
+  margin-top: -13px;
+}
 
 .nav-tabs .nav-link.active {
   background-color: transparent !important;
@@ -83,6 +89,8 @@ button.navbar-toggler {
 .explore {
   background-color: rgb(209, 209, 209);
   border: none !important;
+  padding: 20px 40px;
+  text-decoration: none;
 }
 .sell {
   background-color: #fec200;

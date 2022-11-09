@@ -20,7 +20,7 @@ export default function Nft1() {
     <div>
       <MainNav />
       <div className="container-fluid background-up">
-        <h1 style={{ fontSize: "80px", fontWeight: "900", color: "#fff" }}>
+        <h1 className="explore-header">
           Explore
         </h1>
 

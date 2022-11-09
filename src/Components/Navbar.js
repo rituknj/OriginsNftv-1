@@ -1,5 +1,6 @@
 // import { icons } from "react-icons";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import Slider from "./Slider1";
 import "./Main.css";
@@ -83,12 +84,12 @@ export default function Navbar(props) {
                     ORIGINS NFT
                   </a>
                 </li> */}
-                  <div className="dropdown">
+                  {/* <div className="dropdown">
                     <li className="nav-item">
                       <a
                         className="nav-link active"
                         aria-current="page"
-                        href="/nft"
+                        href="/"
                         style={{
                           color: props.mode === "light" ? "black " : "white ",
                         }}
@@ -96,13 +97,60 @@ export default function Navbar(props) {
                         Explore
                       </a>
                       <div class="dropdown-content">
-                        <a href="/">Link 1</a>
-                        <a href="/">Link 2</a>
-                        <a href="/">Link 3</a>
+                        <a href="/">All NFTs </a>
+                        <a href="/">Recordian</a>
+                        <a href="/">Art</a>
+                        <a href="/">Collectibles</a>
+                        <a href="/">Music</a>
+                        <a href="/">Photography</a>
+                        <a href="/">Videos</a>
                       </div>
                     </li>
+                  </div> */}
+
+                  <div class="dropdown">
+                    <button
+                      class="btn nav-link active"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Explore
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          All NFTs
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Recordian
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Music
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Photography
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Videos
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Art
+                        </a>
+                      </li>
+                    </ul>
                   </div>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a
                       className="nav-link active"
                       aria-current="page"
@@ -113,31 +161,117 @@ export default function Navbar(props) {
                     >
                       Stats
                     </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      aria-current="page"
-                      href="/"
-                      style={{
-                        color: props.mode === "light" ? "black " : "white ",
-                      }}
+                    <div class="dropdown-content">
+                      <a href="/">Rankings </a>
+                      <a href="/">Activities</a>
+                    </div>
+                  </li> */}
+                  <div class="dropdown">
+                    <button
+                      class="btn nav-link active"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
                     >
-                      Resources
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      aria-current="page"
-                      href="/"
-                      style={{
-                        color: props.mode === "light" ? "black " : "white ",
-                      }}
+                      Stats
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Rankings
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Activities
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <button
+                      class="btn nav-link active"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Resouces
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Docs
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Patterns
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Advertisement
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Newsletter
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Videos
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Art
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <button
+                      class="btn nav-link active"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
                     >
                       Create
-                    </a>
-                  </li>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Profile
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Favourite
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Watchlist
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                         My collections
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Settings
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/">
+                          Night Mode 
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
 
                   {/* {!show1 ? (
                     ""
@@ -248,30 +382,31 @@ export default function Navbar(props) {
           >
             Explore, collect, and sell NFTs
           </h1>
-          {!show1 ? (
+          {/* {!show1 ? (
             ""
-          ) : (
-            <div className="main-button">
-              <button
-                className="explore"
-                style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                  // background: props.mode === "light" ? "black " : "white ",
-                }}
-              >
-                Explore
-              </button>
-              <button
-                className="sell"
-                style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                  // backgroundColor: props.mode === "light" ? "black " : "white ",
-                }}
-              >
-                Sell
-              </button>
-            </div>
-          )}
+          ) : ( */}
+          <div className="main-button">
+            <Link
+              className="explore"
+              to="/nft"
+              style={{
+                color: props.mode === "light" ? "black " : "white ",
+                // background: props.mode === "light" ? "black " : "white ",
+              }}
+            >
+              Explore
+            </Link>
+            <button
+              className="sell"
+              style={{
+                color: props.mode === "light" ? "black " : "white ",
+                // backgroundColor: props.mode === "light" ? "black " : "white ",
+              }}
+            >
+              Sell
+            </button>
+          </div>
+          {/* )} */}
           <div>
             {/* {show1 ? (
               ""
