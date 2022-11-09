@@ -43,14 +43,7 @@ export default function MainNav(props) {
                 )}
               </a>
 
-              {/* <form className="input-1 d-flex" role="search">
-              <input
-                className="form-control ms-2 ms-2"
-                type="search"
-                placeholder="Search items, collections and accounts"
-                aria-label="Search"
-              />
-            </form> */}
+             
               <button
                 className="navbar-toggler"
                 type="button"
@@ -74,15 +67,9 @@ export default function MainNav(props) {
                     placeholder="Search items, collection, accounts"
                     aria-label="Username"
                     aria-describedby="basic-addon1"
-                    // style={{
-                    //   color: props.mode === "light" ? "black " : "white ",
-                    // }}
+                    
                   />
-                  {/* <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">
-                    ORIGINS NFT
-                  </a>
-                </li> */}
+                 
                   <div className="dropdown">
                     <li className="nav-item">
                       <a

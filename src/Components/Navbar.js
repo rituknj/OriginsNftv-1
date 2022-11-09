@@ -84,29 +84,20 @@ export default function Navbar(props) {
                     ORIGINS NFT
                   </a>
                 </li> */}
-                  {/* <div className="dropdown">
+                  <div className="dropdown">
                     <li className="nav-item">
                       <a
                         className="nav-link active"
                         aria-current="page"
-                        href="/"
+                        href="/exploreart"
                         style={{
                           color: props.mode === "light" ? "black " : "white ",
                         }}
                       >
-                        Explore
+                        Inside Page
                       </a>
-                      <div class="dropdown-content">
-                        <a href="/">All NFTs </a>
-                        <a href="/">Recordian</a>
-                        <a href="/">Art</a>
-                        <a href="/">Collectibles</a>
-                        <a href="/">Music</a>
-                        <a href="/">Photography</a>
-                        <a href="/">Videos</a>
-                      </div>
                     </li>
-                  </div> */}
+                  </div>
 
                   <div class="dropdown">
                     <button
@@ -257,7 +248,7 @@ export default function Navbar(props) {
                       </li>
                       <li>
                         <a class="dropdown-item" href="/">
-                         My collections
+                          My collections
                         </a>
                       </li>
                       <li>
@@ -267,11 +258,28 @@ export default function Navbar(props) {
                       </li>
                       <li>
                         <a class="dropdown-item" href="/">
-                          Night Mode 
+                          Night Mode
                         </a>
                       </li>
                     </ul>
                   </div>
+
+                  {/* <li className="nav-item">
+                    <a
+                      className="nav-link active"
+                      aria-current="page"
+                      href="/"
+                      style={{
+                        color: props.mode === "light" ? "black " : "white ",
+                      }}
+                    >
+                      Stats
+                    </a>
+                    <div class="dropdown-content">
+                      <a href="/">Rankings </a>
+                      <a href="/">Activities</a>
+                    </div>
+                  </li> 
 
                   {/* {!show1 ? (
                     ""

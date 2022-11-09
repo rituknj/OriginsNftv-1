@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nft1 from "./Components/Nft1";
 import Home from "./Components/pages/Home";
+import Exploreart from "./Components/Exploreart";
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -23,6 +24,10 @@ function App() {
           <Route
             path="/nft"
             element={<Nft1 mode={mode} toggleMode={toggleMode} />}
+          />
+          <Route
+            path="/exploreart"
+            element={<Exploreart mode={mode} toggleMode={toggleMode} />}
           />
         </Routes>
       </Router>

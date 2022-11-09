@@ -1,27 +1,15 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import MainNav from "./MainNav";
-import "./Exploreart.css";
-import Inside from "./Images/inside.png";
-import Inside1 from "./Images/export-collection-card.png";
-import Smallimg1 from "../Components/Images/new-img3.png";
-import Image1 from "../Components/Images/newimg1.png";
-import Logo from "./Images/logo.png";
-import Logo2 from "./Images/logowhitemode.png";
-import { CgProfile } from "react-icons/cg";
-import { MdOutlineAccountBalanceWallet } from "react-icons/md";
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { BsFillSunFill } from "react-icons/bs";
 
-import Card from "react-bootstrap/Card";
-
-export default function Exploreart() {
+export default function StatsTop() {
   return (
     <div>
       {/* <MainNav /> */}
 
       <div>
-        <div className="color-nav" style={{ background: " rgba(166, 166, 166, 0.5) " }}>
+        <div
+          className="color-nav"
+          style={{ background: " rgba(166, 166, 166, 0.5) " }}
+        >
           <nav className="navbar navbar-expand-lg bg-transparent">
             <div className="container-fluid px-5">
               <a className="navbar-brand" href="/">
@@ -110,9 +98,7 @@ export default function Exploreart() {
                       className="nav-link active"
                       aria-current="page"
                       href="/"
-                      // style={{
-                      //   color: props.mode === "light" ? "black " : "white ",
-                      // }}
+                     
                     >
                       Create
                     </a>
@@ -165,7 +151,7 @@ export default function Exploreart() {
                 </ul>
               </div>
 
-              <div>
+              {/* <div>
                 <ul className="nav-icons navicon23">
                   <li className="nav-icons-2">
                     <div>
@@ -184,7 +170,7 @@ export default function Exploreart() {
                     <AiOutlineShoppingCart />
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </nav>
         </div>
@@ -201,10 +187,10 @@ export default function Exploreart() {
             </p>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div className="row">
+            {/* <div className="row">
               <div className="col-6">
                 <div>
-                  {/* <img src={} alt=""/> */}
+                 
                   <img src={Inside} alt="" className="inside-img" />
                 </div>
               </div>
@@ -214,80 +200,12 @@ export default function Exploreart() {
                   <img src={Inside1} alt="" className="insi-cards"/>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
       <div>
         <h2 className="body-head py-5"> What's hot</h2>
-      </div>
-      <div className="row">
-        <div className="col-lg-4 col-md-4 col-sm-6 col-6">
-          <SwiperSlide>
-            <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image1} />
-              <Card.Body>
-                <Card.Title className="card-body12">
-                  <span>
-                    {" "}
-                    <img
-                      src={Smallimg1}
-                      alt=""
-                      style={{ display: "inline-flex" }}
-                      className="card-image1"
-                    />{" "}
-                  </span>
-                  <span className="text32">Somnium Space VR </span>
-                  <span className="tick-icons"></span>
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-6 col-6">
-          <SwiperSlide>
-            <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image1} />
-              <Card.Body>
-                <Card.Title className="card-body12">
-                  <span>
-                    {" "}
-                    <img
-                      src={Smallimg1}
-                      alt=""
-                      style={{ display: "inline-flex" }}
-                      className="card-image1"
-                    />{" "}
-                  </span>
-                  <span className="text32">Somnium Space VR </span>
-                  <span className="tick-icons"></span>
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-        </div>
-        <div className="col-lg-4 col-md-4 col-sm-6 col-6">
-          <SwiperSlide>
-            <Card style={{ width: "45rem" }}>
-              <Card.Img variant="top" src={Image1} />
-              <Card.Body>
-                <Card.Title className="card-body12">
-                  <span>
-                    {" "}
-                    <img
-                      src={Smallimg1}
-                      alt=""
-                      style={{ display: "inline-flex" }}
-                      className="card-image1"
-                    />{" "}
-                  </span>
-                  <span className="text32">Somnium Space VR </span>
-                  <span className="tick-icons"></span>
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </SwiperSlide>
-        </div>
       </div>
     </div>
   );

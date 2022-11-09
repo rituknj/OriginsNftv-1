@@ -147,6 +147,12 @@ ul.footer2-list li {
   }
   
 }
+@media screen and (max-width:425px) {
+  .profile-fo{
+    margin-left: 1px;
+  }
+  
+}
 /* @media screen and (max-width:414px) {
   .profile-fo{
     margin-left: none !important;

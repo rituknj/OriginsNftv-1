@@ -102,6 +102,16 @@ button.navbar-toggler {
     display: none !important;
   }
 }
+@media screen and (max-width: 425px) {
+  .main-button {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .main-button {
+    display: flex;
+  }
+}
 
 /* DROPDOWN */
 .dropdown-content {
