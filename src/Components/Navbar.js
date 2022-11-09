@@ -404,15 +404,16 @@ export default function Navbar(props) {
             >
               Explore
             </Link>
-            <button
+            <Link
               className="sell"
+              to="/statstop"
               style={{
                 color: props.mode === "light" ? "black " : "white ",
                 // backgroundColor: props.mode === "light" ? "black " : "white ",
               }}
             >
               Sell
-            </button>
+            </Link>
           </div>
           {/* )} */}
           <div>

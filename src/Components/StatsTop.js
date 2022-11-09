@@ -94,12 +94,7 @@ export default function StatsTop() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      aria-current="page"
-                      href="/"
-                     
-                    >
+                    <a className="nav-link active" aria-current="page" href="/">
                       Create
                     </a>
                   </li>
@@ -178,29 +173,7 @@ export default function StatsTop() {
       <div className="container-fluid background-img">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-            <h1 className="explore-head">Explore Art</h1>
-            <p className="inside-para">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consectetur dolorem
-              <br /> quos rem et, nesciunt nisi reprehenderit veritatis
-              excepturi unde nulla?
-            </p>
-          </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-            {/* <div className="row">
-              <div className="col-6">
-                <div>
-                 
-                  <img src={Inside} alt="" className="inside-img" />
-                </div>
-              </div>
-              <div className="col-6">
-                <div>
-                  <img src={Inside} alt="" className="insi-card"/>
-                  <img src={Inside1} alt="" className="insi-cards"/>
-                </div>
-              </div>
-            </div> */}
+            <h1 className="explore-head">Collections Stats</h1>
           </div>
         </div>
       </div>

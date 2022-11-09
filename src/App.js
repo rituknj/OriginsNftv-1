@@ -29,6 +29,10 @@ function App() {
             path="/exploreart"
             element={<Exploreart mode={mode} toggleMode={toggleMode} />}
           />
+           <Route
+            path="/statstop"
+            element={<Exploreart mode={mode} toggleMode={toggleMode} />}
+          />
         </Routes>
       </Router>
     </div>

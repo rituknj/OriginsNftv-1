@@ -14,6 +14,7 @@
   font-size: 80px;
   font-weight: 900;
   color: #fff;
+  padding-left: 20px;
 }
 ul.react-tabs__tab-list {
   border-bottom: none !important;

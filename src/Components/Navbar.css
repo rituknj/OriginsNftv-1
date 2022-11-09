@@ -92,6 +92,12 @@ button.navbar-toggler {
   padding: 20px 40px;
   text-decoration: none;
 }
+.sell{
+  background-color: rgb(209, 209, 209);
+  border: none !important;
+  padding: 20px 40px;
+  text-decoration: none;
+}
 .sell {
   background-color: #fec200;
   border: none !important;

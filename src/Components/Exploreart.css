@@ -51,6 +51,9 @@
     border-radius: 25px;
     margin-top: 10px;
 }
+ul.react-tabs__tab-list {
+  padding-left: 20px;
+}
 
 @media screen and (max-width:912px) {
     .background-img{

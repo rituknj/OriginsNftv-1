@@ -53,7 +53,7 @@ export default function Exploreart() {
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
               >
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0" style={{paddingLeft:'20px'}}>
                   <input
                     type="text"
                     className="form-control11"
@@ -221,7 +221,7 @@ export default function Exploreart() {
       <div>
         <h2 className="body-head py-5"> What's hot</h2>
       </div>
-      <div className="row">
+      <div className="row " >
         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
           <SwiperSlide>
             <Card style={{ width: "45rem" }}>
