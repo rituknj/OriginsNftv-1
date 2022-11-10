@@ -12,7 +12,42 @@ min-height: 35vh;
     font-weight: 400;
     margin-top: 170px;
     margin-left: 50px;
+    font-family: "Futura Maxi CG Bold";
 }
 .tabs-stats{
     margin-left: 40px;
+}
+.react-tabs__tab--selected{
+    font-size: 20px !important;
+    font-family: "Futura Maxi CG Bold" !important;
+    font-weight: 500 !important;
+}
+.react-tabs__tab{
+    font-size: 20px !important;
+    font-family: "Futura Maxi CG Bold" !important;
+    font-weight: 500 !important;
+}
+ul.react-tabs__tab-list {
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.hhh{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 83px;
+    color: #6A6A6A;
+    margin-top: 100px;
+}
+.bu{
+    width: 204.31px;
+    height: 56px;
+    background: #FEC200;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+}
+.bu-div{
+    text-align: center;
+    margin-top: 50px;
+
 }

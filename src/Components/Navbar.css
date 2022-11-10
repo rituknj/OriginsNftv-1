@@ -19,10 +19,11 @@
   border: 1px solid #fff;
 }
 .form-control11::placeholder {
-  color: #000 !important ;
+  color: #fff !important ;
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins";
+  padding-left: 25px;
 }
 .form-control11::before {
   background-image: url(./Images/serach-icons.png) !important;

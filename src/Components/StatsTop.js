@@ -1,6 +1,7 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Collectionsearchpanal from "./Collectionsearchpanal"
+import CollectionTable from "./CollectionTable"
 import "./Statstop.css"
 
 
@@ -178,7 +179,7 @@ export default function StatsTop() {
      
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-            <h1 className="stats-head">Collections Stats</h1>
+            <h1 className="stats-head">Collections stats</h1>
           </div>
         </div>
       </div>
@@ -187,15 +188,16 @@ export default function StatsTop() {
 
 <Tabs className="tabs-stats">
 <TabList>
-  <Tab>Top</Tab>
+  <Tab >Top</Tab>
   <Tab>Trending</Tab>
-  <Tab>Watchlist</Tab>
+  <Tab >Watchlist</Tab>
 </TabList>
 
 <TabPanel>
  
   <div>
   <Collectionsearchpanal/> 
+  <CollectionTable/>
   </div>
 </TabPanel>
 
@@ -205,6 +207,7 @@ export default function StatsTop() {
  
   <div>
   <Collectionsearchpanal/> 
+  <CollectionTable/>
     
   </div>
 </TabPanel>
@@ -216,6 +219,12 @@ export default function StatsTop() {
   <div>
   
   <Collectionsearchpanal/> 
+  <div>
+  <h3 className="hhh">This is where your collections added to watchlist will appear.</h3>
+  <div className="bu-div"> 
+  <button className="bu">Explore Collections</button></div>
+  
+  </div>
   </div>
 </TabPanel>
 </Tabs>

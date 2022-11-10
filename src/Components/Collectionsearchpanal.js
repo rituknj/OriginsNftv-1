@@ -8,9 +8,9 @@ export default function Collectionsearchpanal() {
     <>
     <div className='container-fluid collection'>
     <div className='row'>
-    <div className='col-lg-2 col-md-1 col-sm-6 col-12'>
+    <div className='col-lg-2 col-md-1 col-sm-6 col-12' >
     <Dropdown>
-    <Dropdown.Toggle variant="success" id="dropdown-basic">
+    <Dropdown.Toggle variant="success" id="dropdown-basic"  className="categories-tab">
      Categories
     </Dropdown.Toggle>
 
@@ -24,7 +24,7 @@ export default function Collectionsearchpanal() {
     </div>
     <div className='col-lg-2 col-md-1 col-sm-6 col-12'>
     <Dropdown>
-    <Dropdown.Toggle variant="success" id="dropdown-basic">
+    <Dropdown.Toggle variant="success" id="dropdown-basic"  className="categories-tab">
       All chains
     </Dropdown.Toggle>
 
@@ -41,7 +41,7 @@ export default function Collectionsearchpanal() {
     </div>
     
     <div className='col-lg-7 col-md-7 col-sm-6 col-12'>
-    <span className='tabs-time'><span className='time1 hour'>1h</span><span className='time1'> 6h</span><span className='time1'>24h</span><span className='time1'>7d</span><span className='time1'>30d</span><span className='time1'>all</span></span>
+    <span className='tabs-time'><span className='time1 hour '>1h</span><span className='time1'> 6h</span><span className='time1'>24h</span><span className='time1'>7d</span><span className='time1'>30d</span><span className='time1'>all</span></span>
     </div>
     
     </div>
