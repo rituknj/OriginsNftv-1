@@ -119,7 +119,7 @@ function TabsExample() {
               </button>
             </div>
           </div>
-          <div className="row px-5 cards-section">
+          <div className="row px-5 cards-section" >
             <div className="col-lg-3 col-md-3 col-sm-6 col-12">
               <div className="card" style={{ width: "25rem" }}>
                 <img

@@ -20,7 +20,7 @@ export default function Navbar(props) {
     <>
       <div className={`Navbar  navbar-${props.mode} bg-${props.mode}`}>
         <div style={{ background: " rgba(166, 166, 166, 0.5)" }}>
-          <nav className="navbar navbar-expand-lg bg-transparent">
+          <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid px-5">
               <a className="navbar-brand" href="/">
                 {!show1 ? (
@@ -98,6 +98,20 @@ export default function Navbar(props) {
                       </a>
                     </li>
                   </div>
+                  <div className="dropdown">
+                  <li className="nav-item">
+                    <a
+                      className="nav-link active"
+                      aria-current="page"
+                      href="/statstop"
+                      style={{
+                        color: props.mode === "light" ? "black " : "white ",
+                      }}
+                    >
+                      Stats1
+                    </a>
+                  </li>
+                </div>
 
                   <div class="dropdown">
                     <button
@@ -380,7 +394,7 @@ export default function Navbar(props) {
           backgroundColor: props.mode === "light" ? "white " : "#212529 ",
         }}
       >
-        <div className="container-fluid background-main py-5 px-5">
+        <div className="container-fluid background-main py-5 ">
           <div></div>
           <h1
             className="heading-1"

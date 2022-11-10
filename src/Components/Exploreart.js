@@ -12,6 +12,7 @@ import { CgProfile } from "react-icons/cg";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsFillSunFill } from "react-icons/bs";
+import Footer from "./Footer";
 
 import Card from "react-bootstrap/Card";
 
@@ -221,7 +222,7 @@ export default function Exploreart() {
       <div>
         <h2 className="body-head py-5"> What's hot</h2>
       </div>
-      <div className="row " >
+      <div className="row " style={{margin:'30px'}}>
         <div className="col-lg-4 col-md-4 col-sm-6 col-6">
           <SwiperSlide>
             <Card style={{ width: "45rem" }}>
@@ -287,8 +288,12 @@ export default function Exploreart() {
               </Card.Body>
             </Card>
           </SwiperSlide>
+        </div>
+        <div className="see-more-button">
+        <button className="button-see">See More</button>
         </div>
       </div>
+      <div><Footer /></div>
     </div>
   );
 }

@@ -34,7 +34,7 @@ export default function Nft1() {
           <TabPanel>
             <Searchpanal />
             <div>
-              <div className="row">
+              <div className="row" style={{margin:'10px'}}>
                 <div className="col-lg-3 col-md-3 col-sm-6 col-12">
                   <div className="card" style={{ width: "100%" }}>
                     <img
@@ -51,7 +51,7 @@ export default function Nft1() {
                     </div>
 
                     <ul className="card-section">
-                      <div className="row">
+                      <div className="row" >
                         <div className="col-lg-6 col-md-6 col-sm-6 col-6">
                           <span className="card-he">Price</span>
                           <p className="card-se">0.548 ETH</p>

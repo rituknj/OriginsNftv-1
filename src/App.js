@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nft1 from "./Components/Nft1";
 import Home from "./Components/pages/Home";
 import Exploreart from "./Components/Exploreart";
+import StatsTop from "./Components/StatsTop";
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -31,7 +32,7 @@ function App() {
           />
            <Route
             path="/statstop"
-            element={<Exploreart mode={mode} toggleMode={toggleMode} />}
+            element={<StatsTop mode={mode} toggleMode={toggleMode} />}
           />
         </Routes>
       </Router>

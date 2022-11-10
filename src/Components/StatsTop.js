@@ -1,4 +1,8 @@
 import React from "react";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import Collectionsearchpanal from "./Collectionsearchpanal"
+import "./Statstop.css"
+
 
 export default function StatsTop() {
   return (
@@ -13,7 +17,7 @@ export default function StatsTop() {
           <nav className="navbar navbar-expand-lg bg-transparent">
             <div className="container-fluid px-5">
               <a className="navbar-brand" href="/">
-                <img src={Logo} alt="" className="logo-1" />
+                {/* <img src={Logo} alt="" className="logo-1" /> */}
 
                 {/* <img
                     src={Logo2}
@@ -60,7 +64,7 @@ export default function StatsTop() {
                         //   color: props.mode === "light" ? "black " : "white ",
                         // }}
                       >
-                        Explore
+                        Explore-much
                       </a>
                       <div class="dropdown-content">
                         <a href="/">Link 1</a>
@@ -170,15 +174,53 @@ export default function StatsTop() {
           </nav>
         </div>
       </div>
-      <div className="container-fluid background-img">
+      <div className="container-fluid background-img1" >
+     
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-            <h1 className="explore-head">Collections Stats</h1>
+            <h1 className="stats-head">Collections Stats</h1>
           </div>
         </div>
       </div>
+{/* ---------------------------------------------------------------------TABS-------------------------------------------------------------------------- */}
+
+
+<Tabs className="tabs-stats">
+<TabList>
+  <Tab>Top</Tab>
+  <Tab>Trending</Tab>
+  <Tab>Watchlist</Tab>
+</TabList>
+
+<TabPanel>
+ 
+  <div>
+  <Collectionsearchpanal/> 
+  </div>
+</TabPanel>
+
+{/*-------------------------------------------------- COLLECTIONS ------------------------------------------------------------------------ */}
+
+<TabPanel>
+ 
+  <div>
+  <Collectionsearchpanal/> 
+    
+  </div>
+</TabPanel>
+
+{/*---------------------------------------------- USERS----------------------------------------------------------------------------- */}
+
+<TabPanel>
+ 
+  <div>
+  
+  <Collectionsearchpanal/> 
+  </div>
+</TabPanel>
+</Tabs>
       <div>
-        <h2 className="body-head py-5"> What's hot</h2>
+      
       </div>
     </div>
   );

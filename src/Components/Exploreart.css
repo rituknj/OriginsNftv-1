@@ -20,12 +20,25 @@
     width: 100%;
     background: rgba(166, 166, 166, 0.5) ;
 }
+.see-more-button{
+  text-align: center;
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+}
+.button-see{
+  width: 145.51px;
+  height: 50.04px;
+  /* left: 633.25px; */
+  /* top: 2184.33px; */
+  border: 1px solid #6A6A6A;
+  border-radius: 15px;
+}
 .explore-head {
   font-size: 60px;
   font-weight: 900;
   color: #fff;
   padding-top: 320px;
-  padding-left: 50px;
+  padding-left: 30px;
 }
 .inside-img {
   margin-top: 180px;
@@ -34,7 +47,7 @@
 .inside-para {
   font-size: 18px;
   font-weight: 500;
-  padding-left: 50px;
+  padding-left: 30px;
 }
 .body-head {
   font-size: 40px;

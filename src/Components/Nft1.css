@@ -14,8 +14,15 @@
   font-size: 80px;
   font-weight: 900;
   color: #fff;
-  padding-left: 20px;
+  margin-left: 1.8rem;
 }
+.row.my-5{
+  margin-left: 0.2rem;
+}
+ul.react-tabs__tab-list{
+  margin-left: 0.8rem;
+}
+
 ul.react-tabs__tab-list {
   border-bottom: none !important;
 }

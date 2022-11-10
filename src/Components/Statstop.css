@@ -1,0 +1,18 @@
+.background-img1{
+    width: 1440px;
+height: 220px;
+background: linear-gradient(255.46deg, #FFBC39 18.86% , #DE5D34 40.83%,  #F74242 82.55% );
+padding: 50px;
+min-height: 35vh;
+}
+.stats-head{
+    font-size: 45px;
+    color: #fff;
+    line-height: 47px;
+    font-weight: 400;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+.tabs-stats{
+    margin-left: 40px;
+}

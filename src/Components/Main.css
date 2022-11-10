@@ -1,10 +1,11 @@
 .heading-1 {
   text-align: center;
   padding: 50px;
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Poppins";
   font-weight: 900;
   color: #fff;
+  margin-top: 70px;
 }
 .form-control {
   width: 592px;
@@ -59,6 +60,8 @@ input::placeholder {
 }
 .main-button {
   text-align: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
 }
 .explore {
   width: 154.7px;
@@ -71,6 +74,7 @@ input::placeholder {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+
 }
 .sell {
   width: 154.7px;
