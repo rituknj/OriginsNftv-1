@@ -99,19 +99,33 @@ export default function Navbar(props) {
                     </li>
                   </div>
                   <div className="dropdown">
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      aria-current="page"
-                      href="/statstop"
-                      style={{
-                        color: props.mode === "light" ? "black " : "white ",
-                      }}
-                    >
-                      Stats1
-                    </a>
-                  </li>
-                </div>
+                    <li className="nav-item">
+                      <a
+                        className="nav-link active"
+                        aria-current="page"
+                        href="/statstop"
+                        style={{
+                          color: props.mode === "light" ? "black " : "white ",
+                        }}
+                      >
+                        Stats1
+                      </a>
+                    </li>
+                  </div>
+                  <div className="dropdown">
+                    <li className="nav-item">
+                      <a
+                        className="nav-link active"
+                        aria-current="page"
+                        href="/helpcenter"
+                        style={{
+                          color: props.mode === "light" ? "black " : "white ",
+                        }}
+                      >
+                        Helpcenter
+                      </a>
+                    </li>
+                  </div>
 
                   <div class="dropdown">
                     <button
@@ -155,22 +169,7 @@ export default function Navbar(props) {
                       </li>
                     </ul>
                   </div>
-                  {/* <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      aria-current="page"
-                      href="/"
-                      style={{
-                        color: props.mode === "light" ? "black " : "white ",
-                      }}
-                    >
-                      Stats
-                    </a>
-                    <div class="dropdown-content">
-                      <a href="/">Rankings </a>
-                      <a href="/">Activities</a>
-                    </div>
-                  </li> */}
+
                   <div class="dropdown">
                     <button
                       class="btn nav-link active"
@@ -199,6 +198,7 @@ export default function Navbar(props) {
                       type="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
+                      href="/helpcenter"
                     >
                       Resouces
                     </button>

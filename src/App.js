@@ -5,6 +5,7 @@ import Nft1 from "./Components/Nft1";
 import Home from "./Components/pages/Home";
 import Exploreart from "./Components/Exploreart";
 import StatsTop from "./Components/StatsTop";
+import Helpcenter from "./Components/Helpcenter";
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -33,6 +34,10 @@ function App() {
            <Route
             path="/statstop"
             element={<StatsTop mode={mode} toggleMode={toggleMode} />}
+          />
+           <Route
+            path="/helpcenter"
+            element={<Helpcenter mode={mode} toggleMode={toggleMode} />}
           />
         </Routes>
       </Router>
