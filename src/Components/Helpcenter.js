@@ -219,7 +219,7 @@ export default function Collectionsearchpanal() {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row image-ceo">
             <div className="col-lg-6 col-md-6 col-sm-6 col-12">
               <img src={Ceo} alt="" />
             </div>

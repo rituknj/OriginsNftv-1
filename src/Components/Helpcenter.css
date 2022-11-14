@@ -102,3 +102,7 @@ border-radius: 12px;
   font-size: 18px;
   font-family: 'Futura Maxi CG Bold';
 }
+.row.image-ceo{
+  margin-top: 200px;
+  margin-bottom: 80px;
+}
