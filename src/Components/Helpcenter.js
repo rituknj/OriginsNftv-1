@@ -102,6 +102,12 @@ export default function Collectionsearchpanal() {
           </div>
         </div>
       </div>
+      <div className="container-fluid background-image">
+        <div>
+          <h1>Welcome to Origins Marketplace</h1>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
     </>
   );
 }
