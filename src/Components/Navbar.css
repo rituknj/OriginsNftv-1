@@ -143,3 +143,20 @@ button.navbar-toggler {
   position: relative;
   display: inline-block;
 }
+
+
+/*DROPDOWN  */
+.dropdown-menu.ex{
+  width: 240px;
+}
+.allnft{
+  margin-right: 10px;
+  font-size: 14px;
+  font-family: 'Futura Maxi CG Bold';
+}
+.dropdown-menu.stats{
+  width: 240px;
+}
+.dropdown-menu.resources{
+  width: 240px;
+}

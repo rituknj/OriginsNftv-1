@@ -2,7 +2,14 @@
   font-family: 'Futura Maxi CG Bold';
   src: url("../src/futura-maxi-cg-bold-maisfontes.ca68/futura-maxi-cg-bold.otf");
 }
-
+@font-face {
+  font-family: 'Futura Maxi CG Book';
+  src: url("../src/futuramaxicgbook/Futura\ Maxi\ CG\ Book.otf");
+}
+@font-face {
+  font-family: 'Century Gothic';
+  src: url("../src/century-gothic/Century\ Gothic.ttf");
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 section {

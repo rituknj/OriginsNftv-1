@@ -11,6 +11,13 @@ import { CgProfile } from "react-icons/cg";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BsFillSunFill } from "react-icons/bs";
+import NFTs from "./Images/Ellipse 9.png"
+import Recordion from "./Images/Ellipse 2.png"
+import Art from "./Images/Ellipse 3.png"
+import Collectibles from "./Images/Ellipse 4.png"
+import Music from "./Images/Ellipse 5.png";
+import Photography from "./Images/Ellipse 6.png"
+import Videos from "./Images/Ellipse 7.png"
 import "./Navbar.css";
 
 export default function Navbar(props) {
@@ -126,154 +133,166 @@ export default function Navbar(props) {
                       </a>
                     </li>
                   </div>
+                  <div className="dropdown">
+                    <li className="nav-item">
+                      <a
+                        className="nav-link active"
+                        aria-current="page"
+                        href="/helpcenter-newsletter"
+                        style={{
+                          color: props.mode === "light" ? "black " : "white ",
+                        }}
+                      >
+                        Helpcenter-newsletter
+                      </a>
+                    </li>
+                  </div>
 
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <button
-                      class="btn nav-link active"
+                      className="btn nav-link active"
                       type="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       Explore
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu ex">
                       <li>
-                        <a class="dropdown-item" href="/">
-                          All NFTs
+                        <a className="dropdown-item" href="/">
+                        <img src={NFTs} alt="" className="allnft"/>All NFTs
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
-                          Recordian
+                        <a className="dropdown-item" href="/">
+                         <img src={Recordion} alt="" className="allnft"/>Recordian
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
-                          Music
+                        <a className="dropdown-item" href="/">
+                        <img src={Art} alt="" className="allnft"/>Art
+                        
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
-                          Photography
+                        <a className="dropdown-item" href="/">
+                        <img src={Collectibles} alt="" className="allnft"/>Collectibles
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
-                          Videos
+                        <a className="dropdown-item" href="/">
+                        <img src={Music} alt="" className="allnft"/>Music
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
-                          Art
+                        <a className="dropdown-item" href="/">
+                        <img src={Photography} alt="" className="allnft"/>Photography
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="/">
+                        <img src={Videos} alt="" className="allnft"/>Videos
                         </a>
                       </li>
                     </ul>
                   </div>
 
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <button
-                      class="btn nav-link active"
+                      className="btn nav-link active "
                       type="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       Stats
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu stats">
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Rankings
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Activities
                         </a>
                       </li>
                     </ul>
                   </div>
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <button
-                      class="btn nav-link active"
+                      className="btn nav-link active"
                       type="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                       href="/helpcenter"
                     >
-                      Resouces
+                      Resources
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu resources">
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Docs
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Patterns
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Advertisement
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Newsletter
                         </a>
                       </li>
-                      <li>
-                        <a class="dropdown-item" href="/">
-                          Videos
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="/">
-                          Art
-                        </a>
-                      </li>
+                     
                     </ul>
                   </div>
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <button
-                      class="btn nav-link active"
+                      className="btn nav-link active"
                       type="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       Create
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Profile
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Favourite
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Watchlist
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           My collections
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Settings
                         </a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/">
                           Night Mode
                         </a>
+                        
                       </li>
                     </ul>
                   </div>
@@ -289,7 +308,7 @@ export default function Navbar(props) {
                     >
                       Stats
                     </a>
-                    <div class="dropdown-content">
+                    <div className="dropdown-content">
                       <a href="/">Rankings </a>
                       <a href="/">Activities</a>
                     </div>
@@ -299,7 +318,7 @@ export default function Navbar(props) {
                     ""
                   ) : (
                     <div
-                      class="input-group12 mb-3"
+                      className="input-group12 mb-3"
                       style={{
                         color: props.mode === "light" ? "black " : "white",
                       }}
@@ -360,12 +379,59 @@ export default function Navbar(props) {
                     </div>
                   </li>
                   <li className="nav-icons-1">
-                    <CgProfile
+                    {/* <CgProfile
+                      style={{
+                        color: props.mode === "light" ? "black " : "white ",
+                      }}
+                    /> */}
+
+                  <div className="dropdown">
+                    <button
+                      className="btn nav-link active"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                       <CgProfile
                       style={{
                         color: props.mode === "light" ? "black " : "white ",
                       }}
                     />
-                  </li>
+                    </button>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <a className="dropdown-item" href="/">
+                          Profile
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="/">
+                          Favourite
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="/">
+                          Watchlist
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="/">
+                          My collections
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="/">
+                          Settings
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="/">
+                          Night Mode
+                        </a>
+                        
+                      </li>
+                    </ul>
+                  </div> </li>
                   <li className="nav-icons-1">
                     <MdOutlineAccountBalanceWallet
                       style={{
@@ -435,7 +501,7 @@ export default function Navbar(props) {
               ""
             ) : (
               <div
-                class="input-group122 mb-3"
+                className="input-group122 mb-3"
                 style={{
                   color: props.mode === "light" ? "black " : "white ",
                 }}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Newsletter.css";
-
+import News from "./Images/testimonial-bg-remove.png";
 import Footer from "./Footer";
 
 export default function Collectionsearchpanal() {
@@ -61,7 +61,7 @@ export default function Collectionsearchpanal() {
                         >
                           Explore-much
                         </a>
-                        <div class="dropdown-content">
+                        <div className="dropdown-content">
                           <a href="/">Link 1</a>
                           <a href="/">Link 2</a>
                           <a href="/">Link 3</a>
@@ -102,9 +102,35 @@ export default function Collectionsearchpanal() {
           </div>
         </div>
         <div className="container-fluid background-image">
-          
+          <div className="container" >
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-6 iimg" >
+                <img src={News} alt="" className="newsletter-img"/>
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-6 col-6 iimg2">
+                <h1 className="news-head">Be the first to know<br/> our latest updates!</h1>
+                <p className="para-news">
+                  Lorem ipsum dolor sit amet consectetur,<br/> adipisicing elit. Quis
+                  consequatur magnam <br/>hic aspernatur molestias neque esse ullam<br/>
+                  consequuntur deserunt totam.
+                </p>
+                <div className="input-group1225 mb-3">
+                  <input
+                    type="text"
+                    className="form-control002"
+                    placeholder="Enter email address"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                  
+                </div>
+                <button type="button" className="btn btn-warning">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        
       </div>
       <Footer />
     </>
