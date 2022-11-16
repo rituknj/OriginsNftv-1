@@ -160,3 +160,7 @@ button.navbar-toggler {
 .dropdown-menu.resources{
   width: 240px;
 }
+
+ul.dropdown-menu.show {
+  width: 240px;
+}

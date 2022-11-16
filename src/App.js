@@ -7,6 +7,7 @@ import Exploreart from "./Components/Exploreart";
 import StatsTop from "./Components/StatsTop";
 import Helpcenter from "./Components/Helpcenter";
 import Newsletter from "./Components/Newsletter";
+import Mycollections from "./Components/Mycollections";
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -43,6 +44,10 @@ function App() {
           <Route
             path="/helpcenter-newsletter"
             element={<Newsletter mode={mode} toggleMode={toggleMode} />}
+          />
+          <Route
+            path="/mycollections"
+            element={<Mycollections mode={mode} toggleMode={toggleMode} />}
           />
         </Routes>
       </Router>

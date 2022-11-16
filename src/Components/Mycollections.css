@@ -1,0 +1,126 @@
+.background-image {
+  width: 1440px;
+  height: 500px;
+  left: 1440px;
+  top: 0px;
+  background-repeat: no-repeat;
+  background-image: url("./Images/helpcenter-img.png");
+  background-size: cover;
+}
+.mycollection-head {
+  color: #fff;
+  padding-top: 200px;
+  padding-left: 50px;
+  font-family: "Futura Maxi CG Bold";
+}
+.mycollection-para {
+  color: #fff;
+  padding-left: 50px;
+  font-size: 14px;
+  font-family: "Futura Maxi CG Book";
+}
+.collection-button {
+  width: 200px;
+  height: 55px;
+  background: #fec200;
+  border-radius: 15px;
+  color: black;
+  font-size: 16px;
+  font-family: "Century Gothic";
+  font-weight: 700;
+  margin-left: 50px;
+}
+.main-content {
+  align-items: center;
+  padding: 200px;
+}
+h2 {
+  font-size: 24px;
+  color: #6a6a6a;
+  font-family: "Futura Maxi CG Book";
+}
+.drop-area-style {
+  border-radius: 50%;
+}
+.drop-area-style2 {
+  border-radius: 20px;
+  width: 400px;
+  height: 250px;
+  border: 3px dashed #c5c5c5;
+}
+.name-input {
+  width: 404px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid #d9d9d9;
+}
+.name-input::placeholder {
+  color: #c5c5c5 !important;
+}
+.url-input {
+  width: 404px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid #d9d9d9;
+}
+.url-input::placeholder {
+  color: #c5c5c5 !important;
+}
+.url-input2 {
+  width: 404px;
+  height: 160px;
+  border-radius: 10px;
+  border: 2px solid #d9d9d9;
+}
+.category-button {
+  width: 178.87px;
+  height: 53.4px;
+  left: 200.03px;
+  top: 1978.08px;
+  border: 1px solid #d9d9d9;
+  border-radius: 9.92153px;
+}
+.links-input {
+  width: 404px;
+  /* height: 50px; */
+  background: #ffffff;
+  border-radius: 20px;
+}
+.youtube-input {
+  width: 404px;
+  /* height: 50px; */
+  border-radius: 10px;
+  border: 2px solid #d9d9d9;
+}
+.m-input {
+    width: 404px;
+    /* height: 50px; */
+    border-radius: 10px;
+    border: 2px solid #d9d9d9;
+  }
+  .telegram-input {
+    width: 404px;
+    /* height: 50px; */
+    border-radius: 10px;
+    border: 2px solid #d9d9d9;
+  }
+.modal-content {
+  width: 80% !important;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+.address-button{
+    width: 178.87px;
+  height: 53.4px;
+  left: 200.03px;
+  top: 1978.08px;
+  border: 1px solid #d9d9d9;
+  border-radius: 9.92153px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: none !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

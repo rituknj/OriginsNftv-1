@@ -106,7 +106,7 @@ export default function Navbar(props) {
                       </a>
                     </li>
                   </div>
-                  <div className="dropdown">
+                  {/* <div className="dropdown">
                     <li className="nav-item">
                       <a
                         className="nav-link active"
@@ -119,8 +119,8 @@ export default function Navbar(props) {
                         Stats1
                       </a>
                     </li>
-                  </div>
-                  <div className="dropdown">
+                  </div> */}
+                  {/* <div className="dropdown">
                     <li className="nav-item">
                       <a
                         className="nav-link active"
@@ -133,8 +133,8 @@ export default function Navbar(props) {
                         Helpcenter
                       </a>
                     </li>
-                  </div>
-                  <div className="dropdown">
+                  </div> */}
+                  {/* <div className="dropdown">
                     <li className="nav-item">
                       <a
                         className="nav-link active"
@@ -147,7 +147,7 @@ export default function Navbar(props) {
                         Helpcenter-newsletter
                       </a>
                     </li>
-                  </div>
+                  </div> */}
 
                   <div className="dropdown">
                     <button
@@ -214,6 +214,12 @@ export default function Navbar(props) {
                       Stats
                     </button>
                     <ul className="dropdown-menu stats">
+                    <li>
+                        <a className="dropdown-item" href="/statstop">
+                          Stats1
+                        </a>
+                      </li>
+
                       <li>
                         <a className="dropdown-item" href="/">
                           Rankings
@@ -253,7 +259,12 @@ export default function Navbar(props) {
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="/">
+                        <a className="dropdown-item" href="/helpcenter">
+                         Help Center
+                        </a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item" href="/helpcenter-newsletter">
                           Newsletter
                         </a>
                       </li>
@@ -419,7 +430,7 @@ export default function Navbar(props) {
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <a className="dropdown-item" href="/mycollections">
                             My collections
                           </a>
                         </li>
@@ -429,13 +440,14 @@ export default function Navbar(props) {
                           </a>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <a className="dropdown-item d-flex" href="/">
                             Night Mode<span>
                           <Form>
                             <Form.Check
                               type="switch"
                               id="custom-switch"
                               // label="Check this switch"
+                              style={{marginLeft:'85px'}}
                             />
                           </Form></span>
                           </a>
