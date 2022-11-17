@@ -5,6 +5,46 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
+import Eth from "./Images/ETH.png";
+import Eth1 from "./Images/ETH.png";
+import { useTheme } from "@mui/material/styles";
+import OutlinedInput from "@mui/material/OutlinedInput";
+import MenuItem from "@mui/material/MenuItem";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
+
+// DROPDOWN
+const ITEM_HEIGHT = 48;
+const ITEM_PADDING_TOP = 8;
+const MenuProps = {
+  PaperProps: {
+    style: {
+      maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+      width: 250,
+    },
+  },
+};
+
+const names = [
+  "Oliver Hansen",
+  "Van Henry",
+  "April Tucker",
+  "Ralph Hubbard",
+  "Omar Alexander",
+  "Carlos Abbott",
+  "Miriam Wagner",
+  "Bradley Wilkerson",
+  "Virginia Andrews",
+  "Kelly Snyder",
+];
+function getStyles(name, personName, theme) {
+  return {
+    fontWeight:
+      personName.indexOf(name) === -1
+        ? theme.typography.fontWeightRegular
+        : theme.typography.fontWeightMedium,
+  };
+}
 
 const width = 175;
 const height = 175;
@@ -146,6 +186,19 @@ export default function Mycollections() {
     e3.preventDefault();
   };
 
+  const theme = useTheme();
+  const [personName, setPersonName] = React.useState([]);
+
+  const handleChange = (event) => {
+    const {
+      target: { value },
+    } = event;
+    setPersonName(
+      // On autofill we get a stringified value.
+      typeof value === "string" ? value.split(",") : value
+    );
+  };
+
   return (
     <div>
       <div
@@ -238,22 +291,24 @@ export default function Mycollections() {
           centered
           modal-dialog
           modal-dialog-scrollable
+          style={{ marginLeft: "150px" }}
         >
           <Modal.Header closeButton>
             <Modal.Title>Create a Collection</Modal.Title>
           </Modal.Header>
           {/* <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body> */}
           <form>
-            <div>
-              <span className="" required>
-                *Required fields
-              </span>
-              <p>Logo image*</p>
-              <p>
-                {" "}
-                This image will also be used for navigation, 350x350 recommended
+            <div style={{ marginLeft: "100px" }}>
+              <p className="required" required>
+                <span style={{ color: "#DD0000" }}>*</span>Required fields
               </p>
-              <div>
+              <h4 className="logo">Logo image*</h4>
+              <p className="logo-para">
+                {" "}
+                This image will also be used for navigation,
+                <br /> 350x350 recommended
+              </p>
+              <div className="images-box">
                 {err && <p>{err}</p>}
                 <div
                   className="drop-area-style"
@@ -270,12 +325,12 @@ export default function Mycollections() {
                 </div>
               </div>
               <div>
-                <p>Featured Image</p>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Eaque, velit.
+                <h4 className="logo">Featured Image</h4>
+                <p className="paras">
+                  Lorem, ipsum dolor sit amet consectetur
+                  <br /> adipisicing elit. Eaque, velit.
                 </p>
-                <div>
+                <div className="images-box">
                   {err2 && <p>{err2}</p>}
                   <div
                     className="drop-area-style2"
@@ -293,13 +348,15 @@ export default function Mycollections() {
                 </div>
               </div>
               <div>
-                <p>Banner Image</p>
-                <p>
+                <h4 className="logo">Banner Image</h4>
+                <p className="paras">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Accusamus autem corrupti dignissimos sunt odit minus sit eaque
-                  fuga ut dolores.
+                  <br />
+                  Accusamus autem corrupti dignissimos sunt odit minus sit{" "}
+                  <br />
+                  eaque fuga ut dolores.
                 </p>
-                <div>
+                <div className="images-box">
                   {err3 && <p>{err3}</p>}
                   <div
                     className="drop-area-style2"
@@ -317,8 +374,10 @@ export default function Mycollections() {
                 </div>
               </div>
               <div>
-                <p>Name*</p>
-                <div>
+                <h4 className="logo">
+                  Name<span style={{ color: "#DD0000" }}>*</span>
+                </h4>
+                <div id="inputareaprofile">
                   <input
                     className="name-input"
                     placeholder="Example: The Recordian Music"
@@ -326,36 +385,43 @@ export default function Mycollections() {
                 </div>
               </div>
               <div>
-                <p>URL</p>
-                <p>
+                <h4 className="logo">URL</h4>
+                <p className="paras">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Labore officia cumque nam esse nesciunt libero tempore
-                  architecto ratione quia explicabo?
+                  Labore officia cumque <br />
+                  nam esse nesciunt libero tempore architecto ratione quia
+                  explicabo?
                 </p>
-                <input
-                  placeholder="https://originsnft.io/collection/"
-                  className="url-input"
-                />
+                <div id="inputareaprofile">
+                  <input
+                    placeholder="https://originsnft.io/collection/"
+                    className="url-input"
+                  />
+                </div>
               </div>
               <div>
-                <p>
+                <h4 className="logo">URL</h4>
+                <p className="paras">
                   <strong style={{ color: "#FEC200" }}>Markdown</strong> syntax
                   is supported. 0 of 1000 characters used
                 </p>
-                <input className="url-input2" />
+                <div id="inputareaprofile">
+                  <input className="url-input2" />
+                </div>
               </div>
               <div>
-                <p>Category</p>
-                <p>
+                <h4 className="logo">Category</h4>
+                <p className="paras">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
-                  atque possimus nisi deserunt debitis voluptates sint obcaecati
-                  facere voluptatum eveniet.
+                  atque possimus nisi
+                  <br /> deserunt debitis voluptates sint obcaecati facere
+                  voluptatum eveniet.
                 </p>
                 <button className="category-button">+ Add category</button>
               </div>
               <div>
-                <p>Links</p>
-                <div className="links-input">
+                <h4 className="logo">Links</h4>
+                <div className="links-input" id="inputareaprofile">
                   <input className="youtube-input" placeholder="yoursite.io" />
                   <input
                     className="m-input"
@@ -368,24 +434,119 @@ export default function Mycollections() {
                 </div>
               </div>
               <div>
-                <p>Create earnings</p>
-                <p>
+                <h4 className="logo">Create earnings</h4>
+                <p className="paras">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Consectetur at amet ipsa illo nemo fuga ipsum iure commodi
-                  sunt quam.
+                  Consectetur
+                  <br /> at amet ipsa illo nemo fuga ipsum iure commodi sunt
+                  quam.
                 </p>
                 <button className="address-button">+ Add Address</button>
               </div>
-              <div></div>
+              <div>
+                <h4 className="logo">Blockchain</h4>
+                <p className="paras">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                  iure minus
+                  <br /> deleniti alias veritatis enim?
+                </p>
+                {/* <div id="inputareaprofile"><input placeholder="Ethereum" className="eth-input"/></div> */}
+
+                <div>
+                  <FormControl sx={{ m: 1, width: 300, mt: 3 }}>
+                    <Select
+                      multiple
+                      displayEmpty
+                      value={personName}
+                      onChange={handleChange}
+                      input={<OutlinedInput />}
+                      renderValue={(selected) => {
+                        if (selected.length === 0) {
+                          return (
+                            <em id="eth">
+                              <span>
+                                <img src={Eth1} alt="" className="eth-icon" />
+                              </span>
+                              Ethereum
+                            </em>
+                          );
+                        }
+
+                        return selected.join(", ");
+                      }}
+                      MenuProps={MenuProps}
+                      inputProps={{ "aria-label": "Without label" }}
+                    >
+                      <MenuItem disabled value="">
+                        <em>Ethereum</em>
+                      </MenuItem>
+                      {names.map((name) => (
+                        <MenuItem
+                          key={name}
+                          value={name}
+                          style={getStyles(name, personName, theme)}
+                        >
+                          {name}
+                        </MenuItem>
+                      ))}
+                    </Select>
+                  </FormControl>
+                </div>
+              </div>
+              <div>
+                <h4 className="logo">Payment Tokens</h4>
+                <p className="paras">
+                  These tokens can be used to buy and sell your items.{" "}
+                </p>
+                <button className="button-eth">
+                  <p className="d-flex">
+                    <img src={Eth} alt="" />
+                  </p>
+                  <p
+                    className="d-flex
+              "
+                  >
+                    <span>ETH</span>
+                    <br /> <span> Ethereum</span>
+                  </p>
+                </button>
+                <br />
+                <div id="inputareaprofile">
+                  <input className="addtoken-input" placeholder="+Add Token" />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-6 -col-md-6 col-sm-6 col-6">
+                  <h4 className="logo">Explicit & sensitive content</h4>
+                  <p className="paras">
+                    Set this collections as explicit & sensitive content{" "}
+                  </p>
+                </div>
+                <div className="col-lg-6 -col-md-6 col-sm-6 col-6">
+                  <div class="form-check form-switch" id="inputareaprofile">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      role="switch"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                    <label
+                      class="form-check-label"
+                      for="flexSwitchCheckChecked"
+                    ></label>
+                  </div>
+                </div>
+              </div>
             </div>
             <div></div>
           </form>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
-              Close
+              Save as draft
             </Button>
             <Button variant="primary" onClick={handleClose}>
-              Save Changes
+              Create
             </Button>
           </Modal.Footer>
         </Modal>

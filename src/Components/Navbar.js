@@ -279,7 +279,7 @@ export default function Navbar(props) {
                     >
                       Create
                     </button>
-                    <ul className="dropdown-menu">
+                    {/* <ul className="dropdown-menu">
                       <li>
                         <a className="dropdown-item" href="/">
                           Profile
@@ -310,7 +310,8 @@ export default function Navbar(props) {
                           Night Mode
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
+                    
                   </div>
 
                   {/* <li className="nav-item">
@@ -374,6 +375,9 @@ export default function Navbar(props) {
                     </span>
                   </div>
                 </li> */}
+                <li>
+                  
+                </li>
                 </ul>
               </div>
 
@@ -415,7 +419,7 @@ export default function Navbar(props) {
                       </button>
                       <ul className="dropdown-menu">
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <a className="dropdown-item" href="/profile">
                             Profile
                           </a>
                         </li>
@@ -476,7 +480,7 @@ export default function Navbar(props) {
           </nav>
         </div>
       </div>
-      {/*       ///////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/*       //////////////////////////////////////////////////BODY/////////////////////////////////////////////// */}
 
       <div
         style={{
@@ -497,6 +501,7 @@ export default function Navbar(props) {
           {/* {!show1 ? (
             ""
           ) : ( */}
+            
           <div className="main-button">
             <Link
               className="explore"
@@ -521,27 +526,7 @@ export default function Navbar(props) {
           </div>
           {/* )} */}
           <div>
-            {/* {show1 ? (
-              ""
-            ) : (
-              <div
-                className="input-group122 mb-3"
-                style={{
-                  color: props.mode === "light" ? "black " : "white ",
-                }}
-              >
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Search Web3"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
-                  style={{
-                    color: props.mode === "light" ? "black " : "white ",
-                  }}
-                />
-              </div>
-            )} */}
+            
             <Slider
               style={{
                 color: props.mode === "light" ? "black " : "white ",

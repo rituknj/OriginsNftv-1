@@ -32,10 +32,10 @@ export default function App(props) {
           navigation={{
             clickable: false,
           }}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 2500,
+          //   disableOnInteraction: false,
+          // }}
           breakpoints={{
             640: {
               slidesPerView: 2,
@@ -50,7 +50,7 @@ export default function App(props) {
               spaceBetween: 50,
             },
           }}
-          modules={[Autoplay, Navigation, Pagination]}
+          modules={[ Navigation, Pagination]}
           className="mySwiper"
         >
           <SwiperSlide>
@@ -63,7 +63,7 @@ export default function App(props) {
               }}
             />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide >
             {" "}
             <img src={Image2} alt="" className="slider1" />
           </SwiperSlide>

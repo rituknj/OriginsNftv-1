@@ -90,6 +90,18 @@ input::placeholder {
   line-height: 20px;
   margin-left: 30px;
 }
+
+@media screen and (max-width:912px) {
+  .heading-1{
+    margin-top: 0px;
+  } 
+}
+@media screen and (max-width:820px) {
+  h1.heading-1 {
+    padding: 20px;
+} 
+}
+
 @media screen and (max-width: 768px) {
   .heading-1 {
     font-size: 32px;
@@ -100,9 +112,16 @@ input::placeholder {
     display: block;
     margin: 1rem auto;
   }
+  .main-button {
+    margin-top: 50px;
+}
 }
 @media screen and (max-width: 412px) {
   .main-button{
     display: flex;
   }
+  h1.heading-1 {
+    padding: 0px;
+    font-size: 25px;
+}
 }

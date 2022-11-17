@@ -14,19 +14,7 @@ export default function Collectionsearchpanal() {
           >
             <nav className="navbar navbar-expand-lg bg-transparent">
               <div className="container-fluid px-5">
-                <a className="navbar-brand" href="/">
-                  {/* <img src={Logo} alt="" className="logo-1" /> */}
-
-                  {/* <img
-                    src={Logo2}
-                    alt=""
-                    className="logo-1"
-                    style={{
-                      color: props.mode === "light" ? "black " : "white ",
-                    }}
-                  /> */}
-                </a>
-
+                <a className="navbar-brand" href="/"></a>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -101,17 +89,23 @@ export default function Collectionsearchpanal() {
             </nav>
           </div>
         </div>
-        <div className="container-fluid background-image">
-          <div className="container" >
+        <div className="container-fluid background-image1">
+          <div className="container">
+          
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-6 col-6 iimg" >
-                <img src={News} alt="" className="newsletter-img"/>
+              <div className="col-lg-6 col-md-6 col-sm-6 col-6 iimg">
+                <img src={News} alt="" className="newsletter-img" />
               </div>
               <div className="col-lg-6 col-md-6 col-sm-6 col-6 iimg2">
-                <h1 className="news-head">Be the first to know<br/> our latest updates!</h1>
+                <h1 className="news-head">
+                  Be the first to know
+                  <br /> our latest updates!
+                </h1>
                 <p className="para-news">
-                  Lorem ipsum dolor sit amet consectetur,<br/> adipisicing elit. Quis
-                  consequatur magnam <br/>hic aspernatur molestias neque esse ullam<br/>
+                  Lorem ipsum dolor sit amet consectetur,
+                  <br /> adipisicing elit. Quis consequatur magnam <br />
+                  hic aspernatur molestias neque esse ullam
+                  <br />
                   consequuntur deserunt totam.
                 </p>
                 <div className="input-group1225 mb-3">
@@ -122,7 +116,6 @@ export default function Collectionsearchpanal() {
                     aria-label="Username"
                     aria-describedby="basic-addon1"
                   />
-                  
                 </div>
                 <button type="button" className="btn btn-warning">
                   Subscribe
@@ -132,7 +125,9 @@ export default function Collectionsearchpanal() {
           </div>
         </div>
       </div>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </>
   );
 }

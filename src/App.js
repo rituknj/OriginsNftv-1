@@ -8,6 +8,7 @@ import StatsTop from "./Components/StatsTop";
 import Helpcenter from "./Components/Helpcenter";
 import Newsletter from "./Components/Newsletter";
 import Mycollections from "./Components/Mycollections";
+import Profile from "./Components/Profile"
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -48,6 +49,10 @@ function App() {
           <Route
             path="/mycollections"
             element={<Mycollections mode={mode} toggleMode={toggleMode} />}
+          />
+          <Route
+            path="/profile"
+            element={<Profile mode={mode} toggleMode={toggleMode} />}
           />
         </Routes>
       </Router>

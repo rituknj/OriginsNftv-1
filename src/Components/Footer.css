@@ -98,20 +98,36 @@ ul.footer2-list li {
   width: 3rem;
 }
 @media screen and (max-width: 768px) {
-  ul.footer2-list li {
-    text-align: center;
-  }
+  
   .list-heading {
     text-align: center;
   }
   .icon {
     justify-content: space-around;
   }
+  h3.join-header {
+    margin-left: 0px;
+}
+ul.icon {
+  justify-content: space-between;
+}
 }
 @media screen and (max-width: 992px) {
   .footer-opensea {
     text-align: center;
   }
+}
+@media screen and (max-width:912px) {
+  h5.origins-head {
+    text-align: justify;
+}
+p.origins-para {
+  text-align: justify;
+}
+div#foter21 {
+  margin-bottom: 0rem;
+}
+  
 }
 @media screen and (max-width: 512px) {
   .icon {

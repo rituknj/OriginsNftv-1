@@ -23,9 +23,6 @@ body {
 
 .swiper-slide {
   font-size: 18px;
-  /* background: #fff; */
-
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -44,7 +41,7 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 /* .swiper-pagination {
   background-color: #ababab !important;
@@ -61,7 +58,6 @@ body {
 } */
 .slider-1 {
   border-radius: 20px;
-
   transition: transform 1s;
   width: 200px;
   height: 200px;
@@ -69,13 +65,12 @@ body {
 }
 .slider-1:hover {
   border-radius: 10px;
-  -ms-transform: scale(0.5); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  -ms-transform: scale(0.5); 
+  -webkit-transform: scale(1.2); 
   transform: scale(1.2);
 }
 .slider1 {
   border-radius: 20px;
-
   transition: transform 1s;
   width: 200px;
   overflow: hidden;
@@ -84,8 +79,8 @@ body {
 }
 .slider1:hover {
   border-radius: 10px;
-  -ms-transform: scale(0.5); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  -ms-transform: scale(0.5); 
+  -webkit-transform: scale(1.2); 
   transform: scale(1.2);
 }
 
