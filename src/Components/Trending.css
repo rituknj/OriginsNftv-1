@@ -151,20 +151,20 @@
 .nav-tabs .nav-link.active {
   font-size: 35px !important;
 }
-
+/* 
 .react-tabs__tab {
   display: inline-block;
-  /* border-bottom: 1px solid white !important; */
+
   border-bottom: none;
   bottom: -1px;
   position: relative;
-  /* color: white !important; */
+ 
   list-style: none;
   padding: 6px 12px;
   cursor: pointer;
-  /* background-color: #212529 !important; */
+
   border: none !important;
-}
+} */
 .react-tabs__tab {
   font-size: 2rem;
 }
